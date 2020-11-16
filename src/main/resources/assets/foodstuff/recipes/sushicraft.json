@@ -1,0 +1,29 @@
+{
+  "group": "foodstuff",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodstuff:boiledrice"
+    },
+    {
+      "item": "foodstuff:boiledrice"
+    },
+    {
+      "item": "minecraft:fish",
+      "data": 32767
+    },
+    {
+      "item": "foodstuff:boiledrice"
+    },
+    {
+      "item": "foodstuff:boiledrice"
+    },
+    {
+      "item": "foodstuff:bamboorolls"
+    }
+  ],
+  "result": {
+    "item": "foodstuff:sushi",
+    "count": 8
+  }
+}

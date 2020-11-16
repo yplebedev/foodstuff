@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foodstuff:blocks/leaves_for_banana_texture_v_2",
+    "up": "foodstuff:blocks/leaves_for_banana_texture_v_2",
+    "north": "foodstuff:blocks/leaves_for_banana_texture_v_2",
+    "east": "foodstuff:blocks/leaves_for_banana_texture_v_2",
+    "south": "foodstuff:blocks/leaves_for_banana_texture_v_2",
+    "west": "foodstuff:blocks/leaves_for_banana_texture_v_2",
+    "particle": "foodstuff:blocks/leaves_for_banana_texture_v_2"
+  }
+}

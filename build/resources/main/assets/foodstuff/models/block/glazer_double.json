@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "foodstuff:blocks/chocolate_blocks",
+    "particle": "foodstuff:blocks/chocolate_blocks"
+  }
+}

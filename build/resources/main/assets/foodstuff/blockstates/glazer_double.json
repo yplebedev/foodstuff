@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "foodstuff:glazer_double"
+    }
+  }
+}

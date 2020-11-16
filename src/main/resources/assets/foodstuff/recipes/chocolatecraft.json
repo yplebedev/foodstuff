@@ -1,0 +1,20 @@
+{
+  "group": "foodstuff",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dye",
+      "data": 3
+    },
+    "1": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "foodstuff:chocolate",
+    "count": 3
+  }
+}

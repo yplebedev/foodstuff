@@ -1,0 +1,25 @@
+{
+  "group": "foodstuff",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodstuff:peppersand"
+    },
+    {
+      "item": "foodstuff:sausage"
+    },
+    {
+      "item": "foodstuff:dough"
+    },
+    {
+      "item": "foodstuff:dough"
+    },
+    {
+      "item": "foodstuff:dough"
+    }
+  ],
+  "result": {
+    "item": "foodstuff:pizza",
+    "count": 1
+  }
+}

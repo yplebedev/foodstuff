@@ -1,0 +1,37 @@
+{
+  "group": "foodstuff",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodstuff:bamboo"
+    },
+    {
+      "item": "foodstuff:bamboo"
+    },
+    {
+      "item": "foodstuff:bamboo"
+    },
+    {
+      "item": "foodstuff:bamboo"
+    },
+    {
+      "item": "foodstuff:bamboo"
+    },
+    {
+      "item": "foodstuff:bamboo"
+    },
+    {
+      "item": "foodstuff:bamboo"
+    },
+    {
+      "item": "foodstuff:bamboo"
+    },
+    {
+      "item": "foodstuff:bamboo"
+    }
+  ],
+  "result": {
+    "item": "foodstuff:bamboorolls",
+    "count": 1
+  }
+}

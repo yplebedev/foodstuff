@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "foodstuff:glazer"
+    },
+    "half=top,variant=default": {
+      "model": "foodstuff:glazer_top"
+    }
+  }
+}

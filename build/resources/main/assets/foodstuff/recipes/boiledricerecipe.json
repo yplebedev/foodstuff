@@ -1,0 +1,38 @@
+{
+  "group": "foodstuff",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodstuff:riceitem"
+    },
+    {
+      "item": "foodstuff:riceitem"
+    },
+    {
+      "item": "foodstuff:riceitem"
+    },
+    {
+      "item": "foodstuff:riceitem"
+    },
+    {
+      "item": "minecraft:potion",
+      "data": 32767
+    },
+    {
+      "item": "foodstuff:riceitem"
+    },
+    {
+      "item": "foodstuff:riceitem"
+    },
+    {
+      "item": "foodstuff:riceitem"
+    },
+    {
+      "item": "foodstuff:riceitem"
+    }
+  ],
+  "result": {
+    "item": "foodstuff:boiledrice",
+    "count": 3
+  }
+}

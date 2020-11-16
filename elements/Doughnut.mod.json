@@ -1,0 +1,24 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "doughnut",
+    "customModelName": "Normal",
+    "name": "Doughnut",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 0.4,
+    "eatingSpeed": 48,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "Tuntuntuntuntunrun"
+    }
+  }
+}

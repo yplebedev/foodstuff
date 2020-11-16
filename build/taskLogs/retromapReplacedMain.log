@@ -1,0 +1,1546 @@
+Processing 39 files
+Start Processing: net/mcreator/foodstuff/ClientProxyFoodstuff.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.obj.OBJLoader
+End  Processing: net/mcreator/foodstuff/ClientProxyFoodstuff.java
+
+Start Processing: net/mcreator/foodstuff/ElementsFoodstuff.java
+FOUND CONSTR method net/mcreator/foodstuff/ElementsFoodstuff/ElementsFoodstuff ()V net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/discovery/ASMDataTable
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff/ModElement
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/FoodstuffVariables
+New Key: class net/mcreator/foodstuff/FoodstuffVariables
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class java/util/Map
+Rename field net/minecraft/world/World/provider[3636,3644]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[4010,4015]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4024,4032]::isRemote->field_72995_K
+New Key: class net/mcreator/foodstuff/FoodstuffVariables
+Rename field net/minecraft/entity/Entity/world[4118,4123]::world->field_70170_p
+New Key: class net/mcreator/foodstuff/FoodstuffVariables
+Rename field net/minecraft/entity/Entity/world[4215,4220]::world->field_70170_p
+New Key: class net/mcreator/foodstuff/FoodstuffVariables
+New Key: class net/mcreator/foodstuff/FoodstuffVariables
+Rename field net/minecraft/entity/Entity/world[4715,4720]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4729,4737]::isRemote->field_72995_K
+New Key: class net/mcreator/foodstuff/FoodstuffVariables
+Rename field net/minecraft/entity/Entity/world[4827,4832]::world->field_70170_p
+New Key: class net/mcreator/foodstuff/FoodstuffVariables
+New Key: class net/mcreator/foodstuff/gui/GuiGlazerMenu
+New Key: class net/mcreator/foodstuff/gui/GuiGlazerMenu
+FOUND CONSTR method net/mcreator/foodstuff/ElementsFoodstuff/ModElement/ModElement (Lnet/mcreator/foodstuff/ElementsFoodstuff;I)V net/mcreator/foodstuff/ElementsFoodstuff/ModElement
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.discovery.ASMDataTable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: net.minecraftforge.fml.common.IFuelHandler
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.storage.WorldSavedData
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.world.World
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.block.Block
+Import: net.mcreator.foodstuff.gui.GuiGlazerMenu
+Import: java.util.function.Supplier
+Import: java.util.Random
+Import: java.util.Map
+Import: java.util.List
+Import: java.util.HashMap
+Import: java.util.Collections
+Import: java.util.ArrayList
+Import: java.lang.annotation.RetentionPolicy
+Import: java.lang.annotation.Retention
+End  Processing: net/mcreator/foodstuff/ElementsFoodstuff.java
+
+Start Processing: net/mcreator/foodstuff/Foodstuff.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.Item
+Import: net.minecraft.block.Block
+Import: java.util.function.Supplier
+End  Processing: net/mcreator/foodstuff/Foodstuff.java
+
+Start Processing: net/mcreator/foodstuff/FoodstuffVariables.java
+FOUND CONSTR method net/mcreator/foodstuff/FoodstuffVariables/MapVariables/MapVariables ()V net/mcreator/foodstuff/FoodstuffVariables/MapVariables
+FOUND CONSTR method net/mcreator/foodstuff/FoodstuffVariables/MapVariables/MapVariables (Ljava/lang/String;)V net/mcreator/foodstuff/FoodstuffVariables/MapVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[802,813]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[878,888]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[980,989]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1009,1017]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1307,1320]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[1323,1336]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1440,1453]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[1456,1463]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/foodstuff/FoodstuffVariables/WorldVariables/WorldVariables ()V net/mcreator/foodstuff/FoodstuffVariables/WorldVariables
+FOUND CONSTR method net/mcreator/foodstuff/FoodstuffVariables/WorldVariables/WorldVariables (Ljava/lang/String;)V net/mcreator/foodstuff/FoodstuffVariables/WorldVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1783,1794]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1859,1869]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[1961,1970]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1990,1998]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[2193,2201]::provider->field_73011_w
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[2357,2370]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[2499,2506]::setData->func_75745_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[2855,2861]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[2870,2884]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[2892,2908]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[2966,2972]::player->field_147369_b
+Rename field net/minecraft/entity/Entity/world[2981,2986]::world->field_70170_p
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3020,3032]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3035,3051]::addScheduledTask->func_152344_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3092,3104]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[3107,3113]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/world[3121,3126]::world->field_70170_p
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[3312,3321]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/provider[3475,3483]::provider->field_73011_w
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[3549,3562]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3565,3572]::setData->func_75745_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3660,3667]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/foodstuff/FoodstuffVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage ()V net/mcreator/foodstuff/FoodstuffVariables/WorldSavedDataSyncMessage
+FOUND CONSTR method net/mcreator/foodstuff/FoodstuffVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage (ILnet/minecraft/world/storage/WorldSavedData;)V net/mcreator/foodstuff/FoodstuffVariables/WorldSavedDataSyncMessage
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[4137,4147]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[4395,4406]::readFromNBT->func_76184_a
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.ByteBufUtils
+Import: net.minecraft.world.storage.WorldSavedData
+Import: net.minecraft.world.World
+Import: net.minecraft.nbt.NBTTagCompound
+Import: net.minecraft.client.Minecraft
+End  Processing: net/mcreator/foodstuff/FoodstuffVariables.java
+
+Start Processing: net/mcreator/foodstuff/IProxyFoodstuff.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/foodstuff/IProxyFoodstuff.java
+
+Start Processing: net/mcreator/foodstuff/ServerProxyFoodstuff.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/foodstuff/ServerProxyFoodstuff.java
+
+Start Processing: net/mcreator/foodstuff/block/BlockBamboo.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/block/BlockBamboo/BlockBamboo (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/block/BlockBamboo
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1896,1912]::getItemFromBlock->func_150898_a
+Rename method net/minecraft/world/gen/feature/WorldGenerator/generate (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z[2464,2472]::generate->func_180709_b
+Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[2589,2592]::add->func_177982_a
+Rename method net/minecraft/world/IBlockAccess/isAirBlock (Lnet/minecraft/util/math/BlockPos;)Z[2701,2711]::isAirBlock->func_175623_d
+Rename method net/minecraft/util/math/BlockPos/down ()Lnet/minecraft/util/math/BlockPos;[2767,2771]::down->func_177977_b
+Rename method net/minecraft/block/BlockReed/canBlockStay (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Z[2938,2950]::canBlockStay->func_176354_d
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[2986,2999]::setBlockState->func_180501_a
+Rename method net/minecraft/util/math/BlockPos/up (I)Lnet/minecraft/util/math/BlockPos;[3010,3012]::up->func_177981_b
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3034,3049]::getDefaultState->func_176223_P
+Rename method net/minecraft/world/gen/feature/WorldGenerator/generate (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z[3100,3108]::generate->func_180709_b
+FOUND CONSTR method net/mcreator/foodstuff/block/BlockBamboo/BlockCustomFlower/BlockCustomFlower ()V net/mcreator/foodstuff/block/BlockBamboo/BlockCustomFlower
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[3258,3270]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[3282,3287]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[3302,3316]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/MISC[3329,3333]::MISC->field_78026_f
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[3348,3359]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[3372,3385]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[3396,3409]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[3421,3439]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[4046,4062]::getItemFromBlock->func_150898_a
+Rename method net/minecraft/block/Block/damageDropped (Lnet/minecraft/block/state/IBlockState;)I[4075,4088]::damageDropped->func_180651_a
+Rename method net/minecraft/block/Block/getMapColor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/material/MapColor;[4133,4144]::getMapColor->func_180659_g
+Rename field net/minecraft/block/material/MapColor/GRASS[4227,4232]::GRASS->field_151661_c
+Rename method net/minecraft/block/Block/canPlaceBlockAt (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Z[4398,4413]::canPlaceBlockAt->func_176196_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4465,4478]::getBlockState->func_180495_p
+Rename method net/minecraft/util/math/BlockPos/down ()Lnet/minecraft/util/math/BlockPos;[4483,4487]::down->func_177977_b
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4500,4508]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4557,4570]::getBlockState->func_180495_p
+Rename method net/minecraft/util/math/BlockPos/down ()Lnet/minecraft/util/math/BlockPos;[4575,4579]::down->func_177977_b
+Rename method net/minecraft/util/math/BlockPos/down ()Lnet/minecraft/util/math/BlockPos;[4604,4608]::down->func_177977_b
+Rename method net/minecraft/block/Block/updateTick (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;)V[4825,4835]::updateTick->func_180650_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4915,4928]::getBlockState->func_180495_p
+Rename method net/minecraft/util/math/BlockPos/down ()Lnet/minecraft/util/math/BlockPos;[4933,4937]::down->func_177977_b
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4950,4958]::getBlock->func_177230_c
+Rename method net/minecraft/block/BlockReed/checkForDrop (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z[4983,4995]::checkForDrop->func_176353_e
+Rename method net/minecraft/world/IBlockAccess/isAirBlock (Lnet/minecraft/util/math/BlockPos;)Z[5033,5043]::isAirBlock->func_175623_d
+Rename method net/minecraft/util/math/BlockPos/up ()Lnet/minecraft/util/math/BlockPos;[5051,5053]::up->func_177984_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5106,5119]::getBlockState->func_180495_p
+Rename method net/minecraft/util/math/BlockPos/down (I)Lnet/minecraft/util/math/BlockPos;[5124,5128]::down->func_177979_c
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5142,5150]::getBlock->func_177230_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[5223,5231]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockReed/AGE[5237,5240]::AGE->field_176355_a
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z[5289,5302]::setBlockState->func_175656_a
+Rename method net/minecraft/util/math/BlockPos/up ()Lnet/minecraft/util/math/BlockPos;[5307,5309]::up->func_177984_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[5329,5344]::getDefaultState->func_176223_P
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[5360,5373]::setBlockState->func_180501_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[5385,5397]::withProperty->func_177226_a
+Rename field net/minecraft/block/BlockReed/AGE[5399,5402]::AGE->field_176355_a
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[5451,5464]::setBlockState->func_180501_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[5476,5488]::withProperty->func_177226_a
+Rename field net/minecraft/block/BlockReed/AGE[5490,5493]::AGE->field_176355_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.common.EnumPlantType
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.gen.feature.WorldGenReed
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.World
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.RayTraceResult
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.MapColor
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.BlockReed
+Import: net.minecraft.block.Block
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+Import: java.util.Random
+End  Processing: net/mcreator/foodstuff/block/BlockBamboo.java
+
+Start Processing: net/mcreator/foodstuff/block/BlockGlazer.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/block/BlockGlazer/BlockGlazer (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/block/BlockGlazer
+New Key: class net/mcreator/foodstuff/block/BlockGlazer/BlockCustom
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[2208,2224]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/foodstuff/block/BlockGlazer/BlockCustom/BlockCustom ()V net/mcreator/foodstuff/block/BlockGlazer/BlockCustom
+Rename field net/minecraft/block/material/Material/ANVIL[2393,2398]::ANVIL->field_151574_g
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2413,2431]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2441,2453]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/GROUND[2465,2471]::GROUND->field_185849_b
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2485,2496]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2507,2520]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2530,2543]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2552,2567]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2573,2587]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[2600,2615]::BUILDING_BLOCKS->field_78030_b
+Rename field net/minecraft/block/Block/blockState[2644,2654]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2659,2671]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2675,2687]::withProperty->func_177226_a
+New Key: class net/mcreator/foodstuff/block/BlockGlazer/BlockCustom
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[2741,2749]::isDouble->func_176552_j
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2776,2788]::withProperty->func_177226_a
+Rename field net/minecraft/block/BlockSlab/HALF[2800,2804]::HALF->field_176554_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2847,2862]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/useNeighborBrightness[2877,2898]::useNeighborBrightness->field_149783_u
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[2900,2908]::isDouble->func_176552_j
+New Key: class net/mcreator/foodstuff/block/BlockGlazer/BlockCustom
+New Key: class net/mcreator/foodstuff/block/BlockGlazer/BlockCustom
+Rename method net/minecraft/block/properties/PropertyEnum/create (Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/block/properties/PropertyEnum;[3021,3027]::create->func_177709_a
+New Key: class net/mcreator/foodstuff/block/BlockGlazer/BlockCustom
+Rename method net/minecraft/block/Block/getItemDropped (Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;[3104,3118]::getItemDropped->func_180660_a
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[3180,3196]::getItemFromBlock->func_150898_a
+Rename method net/minecraft/block/Block/getItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;[3238,3245]::getItem->func_185473_a
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3409,3425]::createBlockState->func_180661_e
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[3442,3450]::isDouble->func_176552_j
+Rename field net/minecraft/block/BlockSlab/HALF[3626,3630]::HALF->field_176554_a
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[3691,3707]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[3729,3737]::isDouble->func_176552_j
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3764,3779]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3809,3824]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3825,3837]::withProperty->func_177226_a
+Rename field net/minecraft/block/BlockSlab/HALF[3839,3843]::HALF->field_176554_a
+New Key: class net/minecraft/block/BlockSlab
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[3935,3951]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[3982,3990]::isDouble->func_176552_j
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4044,4052]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockSlab/HALF[4058,4062]::HALF->field_176554_a
+Rename method net/minecraft/block/BlockSlab/getUnlocalizedName (I)Ljava/lang/String;[4123,4141]::getUnlocalizedName->func_150002_b
+Rename method net/minecraft/block/Block/getUnlocalizedName ()Ljava/lang/String;[4165,4183]::getUnlocalizedName->func_149739_a
+Rename method net/minecraft/block/BlockSlab/getVariantProperty ()Lnet/minecraft/block/properties/IProperty;[4221,4239]::getVariantProperty->func_176551_l
+Rename method net/minecraft/block/BlockSlab/getTypeForItem (Lnet/minecraft/item/ItemStack;)Ljava/lang/Comparable;[4298,4312]::getTypeForItem->func_185674_a
+New Key: class net/mcreator/foodstuff/block/BlockGlazer/BlockCustom
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[4404,4412]::isDouble->func_176552_j
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[4575,4583]::isDouble->func_176552_j
+Rename method net/minecraft/util/IStringSerializable/getName ()Ljava/lang/String;[4762,4769]::getName->func_176610_l
+Rename method net/minecraft/block/BlockSlab/isDouble ()Z[4894,4902]::isDouble->func_176552_j
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[4967,4979]::isOpaqueCube->func_149662_c
+Rename method net/minecraft/block/Block/onBlockActivated (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z[5053,5069]::onBlockActivated->func_180639_a
+Rename method net/minecraft/block/Block/onBlockActivated (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z[5222,5238]::onBlockActivated->func_180639_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[5314,5318]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[5346,5350]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[5378,5382]::getZ->func_177952_p
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.IStringSerializable
+Import: net.minecraft.util.EnumHand
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemSlab
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.Variant
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.properties.PropertyEnum
+Import: net.minecraft.block.properties.IProperty
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.BlockSlab
+Import: net.minecraft.block.Block
+Import: net.mcreator.foodstuff.gui.GuiGlazerMenu
+Import: net.mcreator.foodstuff.Foodstuff
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+Import: java.util.Random
+Adding 1 imports
+        net.minecraft.block.BlockSlab.EnumBlockHalf
+End  Processing: net/mcreator/foodstuff/block/BlockGlazer.java
+
+Start Processing: net/mcreator/foodstuff/block/BlockLeavesforbanana.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/block/BlockLeavesforbanana/BlockLeavesforbanana (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/block/BlockLeavesforbanana
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1569,1585]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/foodstuff/block/BlockLeavesforbanana/BlockCustom/BlockCustom ()V net/mcreator/foodstuff/block/BlockLeavesforbanana/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[1763,1769]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1783,1801]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1820,1832]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[1844,1849]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1864,1875]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1889,1902]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1912,1925]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1934,1949]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1957,1971]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[1984,1999]::BUILDING_BLOCKS->field_78030_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.foodstuff.item.ItemBanana
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/block/BlockLeavesforbanana.java
+
+Start Processing: net/mcreator/foodstuff/block/BlockPepper.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/block/BlockPepper/BlockPepper (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/block/BlockPepper
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1951,1967]::getItemFromBlock->func_150898_a
+Rename method net/minecraft/world/IBlockAccess/getBiome (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome;[2359,2367]::getBiome->func_180494_b
+Rename field net/minecraft/world/biome/Biome/REGISTRY[2421,2429]::REGISTRY->field_185377_q
+Rename method net/minecraft/util/registry/RegistryNamespaced/getNameForObject (Ljava/lang/Object;)Ljava/lang/Object;[2436,2452]::getNameForObject->func_177774_c
+Rename field net/minecraft/world/biome/Biome/REGISTRY[2533,2541]::REGISTRY->field_185377_q
+Rename method net/minecraft/util/registry/RegistryNamespaced/getNameForObject (Ljava/lang/Object;)Ljava/lang/Object;[2548,2564]::getNameForObject->func_177774_c
+Rename field net/minecraft/world/biome/Biome/REGISTRY[2646,2654]::REGISTRY->field_185377_q
+Rename method net/minecraft/util/registry/RegistryNamespaced/getNameForObject (Ljava/lang/Object;)Ljava/lang/Object;[2661,2677]::getNameForObject->func_177774_c
+Rename field net/minecraft/world/biome/Biome/REGISTRY[2759,2767]::REGISTRY->field_185377_q
+Rename method net/minecraft/util/registry/RegistryNamespaced/getNameForObject (Ljava/lang/Object;)Ljava/lang/Object;[2774,2790]::getNameForObject->func_177774_c
+Rename field net/minecraft/world/biome/Biome/REGISTRY[2879,2887]::REGISTRY->field_185377_q
+Rename method net/minecraft/util/registry/RegistryNamespaced/getNameForObject (Ljava/lang/Object;)Ljava/lang/Object;[2894,2910]::getNameForObject->func_177774_c
+Rename field net/minecraft/world/biome/Biome/REGISTRY[2992,3000]::REGISTRY->field_185377_q
+Rename method net/minecraft/util/registry/RegistryNamespaced/getNameForObject (Ljava/lang/Object;)Ljava/lang/Object;[3007,3023]::getNameForObject->func_177774_c
+Rename field net/minecraft/world/biome/Biome/REGISTRY[3104,3112]::REGISTRY->field_185377_q
+Rename method net/minecraft/util/registry/RegistryNamespaced/getNameForObject (Ljava/lang/Object;)Ljava/lang/Object;[3119,3135]::getNameForObject->func_177774_c
+Rename field net/minecraft/world/biome/Biome/REGISTRY[3220,3228]::REGISTRY->field_185377_q
+Rename method net/minecraft/util/registry/RegistryNamespaced/getNameForObject (Ljava/lang/Object;)Ljava/lang/Object;[3235,3251]::getNameForObject->func_177774_c
+New Key: class net/minecraft/block/BlockFlower
+Rename method net/minecraft/world/gen/feature/WorldGenerator/generate (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z[3604,3612]::generate->func_180709_b
+FOUND CONSTR method net/mcreator/foodstuff/block/BlockPepper/BlockCustomFlower/BlockCustomFlower ()V net/mcreator/foodstuff/block/BlockPepper/BlockCustomFlower
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[3764,3776]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[3788,3793]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[3808,3822]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/MISC[3835,3839]::MISC->field_78026_f
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[3854,3865]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[3878,3891]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[3902,3915]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[3927,3945]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[4352,4368]::getItemFromBlock->func_150898_a
+Rename method net/minecraft/block/Block/damageDropped (Lnet/minecraft/block/state/IBlockState;)I[4381,4394]::damageDropped->func_180651_a
+New Key: class net/minecraft/block/BlockFlower
+Rename method net/minecraft/block/BlockFlower/getBlockType ()Lnet/minecraft/block/BlockFlower$EnumFlowerColor;[4579,4591]::getBlockType->func_176495_j
+New Key: class net/minecraft/block/BlockFlower
+Rename method net/minecraft/block/Block/getSubBlocks (Lnet/minecraft/creativetab/CreativeTabs;Lnet/minecraft/util/NonNullList;)V[4699,4711]::getSubBlocks->func_149666_a
+New Key: class net/minecraft/block/BlockFlower
+New Key: class net/minecraft/block/BlockFlower
+Rename method net/minecraft/block/BlockFlower/EnumFlowerType/getTypes (Lnet/minecraft/block/BlockFlower$EnumFlowerColor;)[Lnet/minecraft/block/BlockFlower$EnumFlowerType;[4872,4880]::getTypes->func_176966_a
+Rename method net/minecraft/block/BlockFlower/getBlockType ()Lnet/minecraft/block/BlockFlower$EnumFlowerColor;[4891,4903]::getBlockType->func_176495_j
+Rename method net/minecraft/block/BlockFlower/EnumFlowerType/getMeta ()I[4974,4981]::getMeta->func_176968_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.common.EnumPlantType
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.gen.feature.WorldGenFlowers
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.world.World
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.RayTraceResult
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.BlockFlower
+Import: net.minecraft.block.Block
+Import: net.mcreator.foodstuff.item.ItemPepperfood
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+Import: java.util.Random
+End  Processing: net/mcreator/foodstuff/block/BlockPepper.java
+
+Start Processing: net/mcreator/foodstuff/block/BlockRice.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/block/BlockRice/BlockRice (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/block/BlockRice
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1944,1960]::getItemFromBlock->func_150898_a
+Rename method net/minecraft/world/IBlockAccess/getBiome (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/biome/Biome;[2350,2358]::getBiome->func_180494_b
+Rename field net/minecraft/world/biome/Biome/REGISTRY[2412,2420]::REGISTRY->field_185377_q
+Rename method net/minecraft/util/registry/RegistryNamespaced/getNameForObject (Ljava/lang/Object;)Ljava/lang/Object;[2427,2443]::getNameForObject->func_177774_c
+Rename field net/minecraft/world/biome/Biome/REGISTRY[2532,2540]::REGISTRY->field_185377_q
+Rename method net/minecraft/util/registry/RegistryNamespaced/getNameForObject (Ljava/lang/Object;)Ljava/lang/Object;[2547,2563]::getNameForObject->func_177774_c
+New Key: class net/minecraft/block/BlockFlower
+Rename method net/minecraft/world/gen/feature/WorldGenerator/generate (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z[2913,2921]::generate->func_180709_b
+FOUND CONSTR method net/mcreator/foodstuff/block/BlockRice/BlockCustomFlower/BlockCustomFlower ()V net/mcreator/foodstuff/block/BlockRice/BlockCustomFlower
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[3073,3085]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[3097,3102]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[3117,3131]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/DECORATIONS[3144,3155]::DECORATIONS->field_78031_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[3163,3174]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[3185,3198]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[3207,3220]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[3229,3247]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[3648,3664]::getItemFromBlock->func_150898_a
+Rename method net/minecraft/block/Block/damageDropped (Lnet/minecraft/block/state/IBlockState;)I[3677,3690]::damageDropped->func_180651_a
+New Key: class net/minecraft/block/BlockFlower
+Rename method net/minecraft/block/BlockFlower/getBlockType ()Lnet/minecraft/block/BlockFlower$EnumFlowerColor;[3875,3887]::getBlockType->func_176495_j
+New Key: class net/minecraft/block/BlockFlower
+Rename method net/minecraft/block/Block/getSubBlocks (Lnet/minecraft/creativetab/CreativeTabs;Lnet/minecraft/util/NonNullList;)V[3995,4007]::getSubBlocks->func_149666_a
+New Key: class net/minecraft/block/BlockFlower
+New Key: class net/minecraft/block/BlockFlower
+Rename method net/minecraft/block/BlockFlower/EnumFlowerType/getTypes (Lnet/minecraft/block/BlockFlower$EnumFlowerColor;)[Lnet/minecraft/block/BlockFlower$EnumFlowerType;[4168,4176]::getTypes->func_176966_a
+Rename method net/minecraft/block/BlockFlower/getBlockType ()Lnet/minecraft/block/BlockFlower$EnumFlowerColor;[4187,4199]::getBlockType->func_176495_j
+Rename method net/minecraft/block/BlockFlower/EnumFlowerType/getMeta ()I[4270,4277]::getMeta->func_176968_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.common.EnumPlantType
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.gen.feature.WorldGenFlowers
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraft.world.World
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.RayTraceResult
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.BlockFlower
+Import: net.minecraft.block.Block
+Import: net.mcreator.foodstuff.item.ItemRiceItem
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+Import: java.util.Random
+End  Processing: net/mcreator/foodstuff/block/BlockRice.java
+
+Start Processing: net/mcreator/foodstuff/block/BlockSalt.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/block/BlockSalt/BlockSalt (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/block/BlockSalt
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1299,1315]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/foodstuff/block/BlockSalt/BlockCustom/BlockCustom ()V net/mcreator/foodstuff/block/BlockSalt/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1478,1482]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1498,1516]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1524,1536]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/SAND[1548,1552]::SAND->field_185855_h
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1601,1612]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1623,1636]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1646,1659]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1671,1686]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1694,1708]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/FOOD[1721,1725]::FOOD->field_78039_h
+Rename method net/minecraft/block/Block/quantityDropped (Ljava/util/Random;)I[1767,1782]::quantityDropped->func_149745_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.Block
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+Import: java.util.Random
+End  Processing: net/mcreator/foodstuff/block/BlockSalt.java
+
+Start Processing: net/mcreator/foodstuff/command/CommandWhat.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+FOUND CONSTR method net/mcreator/foodstuff/command/CommandWhat/CommandWhat (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/command/CommandWhat
+Rename method net/minecraft/command/ICommand/getName ()Ljava/lang/String;[1028,1035]::getName->func_71517_b
+Rename method net/minecraft/command/ICommand/getName ()Ljava/lang/String;[1055,1062]::getName->func_71517_b
+Rename method net/minecraft/command/ICommand/checkPermission (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z[1106,1121]::checkPermission->func_184882_a
+Rename method net/minecraft/command/ICommand/getAliases ()Ljava/util/List;[1214,1224]::getAliases->func_71514_a
+Rename method net/minecraft/command/ICommand/getTabCompletions (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;[1289,1306]::getTabCompletions->func_184883_a
+Rename method net/minecraft/command/ICommand/isUsernameIndex ([Ljava/lang/String;I)Z[1442,1457]::isUsernameIndex->func_82358_a
+Rename method net/minecraft/command/ICommand/getName ()Ljava/lang/String;[1534,1541]::getName->func_71517_b
+Rename method net/minecraft/command/ICommand/getUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[1602,1610]::getUsage->func_71518_a
+Rename method net/minecraft/command/ICommand/execute (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[1702,1709]::execute->func_184881_a
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[1797,1808]::getPosition->func_180425_c
+Rename method net/minecraft/util/math/Vec3i/getX ()I[1813,1817]::getX->func_177958_n
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[1848,1859]::getPosition->func_180425_c
+Rename method net/minecraft/util/math/Vec3i/getY ()I[1864,1868]::getY->func_177956_o
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[1899,1910]::getPosition->func_180425_c
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[1915,1919]::getZ->func_177952_p
+Rename method net/minecraft/command/ICommandSender/getCommandSenderEntity ()Lnet/minecraft/entity/Entity;[1958,1980]::getCommandSenderEntity->func_174793_f
+Rename field net/minecraft/entity/Entity/world[2025,2030]::world->field_70170_p
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.server.MinecraftServer
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.command.ICommandSender
+Import: net.minecraft.command.ICommand
+Import: net.minecraft.command.CommandHandler
+Import: net.mcreator.foodstuff.procedure.ProcedureWhattriggered
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+Import: java.util.List
+Import: java.util.HashMap
+Import: java.util.Arrays
+Import: java.util.ArrayList
+End  Processing: net/mcreator/foodstuff/command/CommandWhat.java
+
+Start Processing: net/mcreator/foodstuff/gui/GuiGlazerMenu.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+FOUND CONSTR method net/mcreator/foodstuff/gui/GuiGlazerMenu/GuiGlazerMenu (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/gui/GuiGlazerMenu
+FOUND CONSTR method net/mcreator/foodstuff/gui/GuiGlazerMenu/GuiContainerMod/GuiContainerMod (Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V net/mcreator/foodstuff/gui/GuiGlazerMenu/GuiContainerMod
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[2339,2352]::getTileEntity->func_175625_s
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[2481,2499]::addSlotToContainer->func_75146_a
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[2566,2584]::addSlotToContainer->func_75146_a
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[2651,2669]::addSlotToContainer->func_75146_a
+Rename method net/minecraft/inventory/Slot/isItemValid (Lnet/minecraft/item/ItemStack;)Z[2729,2740]::isItemValid->func_75214_a
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[2887,2905]::addSlotToContainer->func_75146_a
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[2916,2925]::inventory->field_71071_by
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[3027,3045]::addSlotToContainer->func_75146_a
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[3056,3065]::inventory->field_71071_by
+Rename method net/minecraft/inventory/Container/canInteractWith (Lnet/minecraft/entity/player/EntityPlayer;)Z[3202,3217]::canInteractWith->func_75145_c
+Rename method net/minecraft/inventory/IInventory/isUsableByPlayer (Lnet/minecraft/entity/player/EntityPlayer;)Z[3257,3273]::isUsableByPlayer->func_70300_a
+Rename method net/minecraft/inventory/Container/transferStackInSlot (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;[3315,3334]::transferStackInSlot->func_82846_b
+Rename field net/minecraft/item/ItemStack/EMPTY[3399,3404]::EMPTY->field_190927_a
+Rename field net/minecraft/inventory/Container/inventorySlots[3442,3456]::inventorySlots->field_75151_b
+Rename method net/minecraft/inventory/Slot/getHasStack ()Z[3496,3507]::getHasStack->func_75216_d
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[3546,3554]::getStack->func_75211_c
+Rename method net/minecraft/item/ItemStack/copy ()Lnet/minecraft/item/ItemStack;[3589,3593]::copy->func_77946_l
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[3641,3655]::mergeItemStack->func_75135_a
+Rename field net/minecraft/inventory/Container/inventorySlots[3674,3688]::inventorySlots->field_75151_b
+Rename field net/minecraft/item/ItemStack/EMPTY[3728,3733]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Slot/onSlotChange (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V[3761,3773]::onSlotChange->func_75220_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[3819,3833]::mergeItemStack->func_75135_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[3903,3917]::mergeItemStack->func_75135_a
+Rename field net/minecraft/inventory/Container/inventorySlots[3941,3955]::inventorySlots->field_75151_b
+Rename field net/minecraft/item/ItemStack/EMPTY[3996,4001]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[4050,4064]::mergeItemStack->func_75135_a
+Rename field net/minecraft/item/ItemStack/EMPTY[4120,4125]::EMPTY->field_190927_a
+Rename field net/minecraft/item/ItemStack/EMPTY[4173,4178]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[4214,4222]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[4248,4256]::putStack->func_75215_d
+Rename field net/minecraft/item/ItemStack/EMPTY[4271,4276]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Slot/onSlotChanged ()V[4311,4324]::onSlotChanged->func_75218_e
+Rename method net/minecraft/item/ItemStack/getCount ()I[4352,4360]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getCount ()I[4381,4389]::getCount->func_190916_E
+Rename field net/minecraft/item/ItemStack/EMPTY[4422,4427]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Slot/onTake (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;[4453,4459]::onTake->func_190901_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[4871,4885]::mergeItemStack->func_75135_a
+Rename method net/minecraft/item/ItemStack/isStackable ()Z[5074,5085]::isStackable->func_77985_e
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5110,5117]::isEmpty->func_190926_b
+Rename field net/minecraft/inventory/Container/inventorySlots[5283,5297]::inventorySlots->field_75151_b
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[5337,5345]::getStack->func_75211_c
+Rename method net/minecraft/inventory/Slot/isItemValid (Lnet/minecraft/item/ItemStack;)Z[5367,5378]::isItemValid->func_75214_a
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5405,5412]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[5434,5441]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[5458,5465]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getHasSubtypes ()Z[5491,5505]::getHasSubtypes->func_77981_g
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[5515,5526]::getMetadata->func_77960_j
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[5543,5554]::getMetadata->func_77960_j
+Rename method net/minecraft/item/ItemStack/areItemStackTagsEqual (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z[5579,5600]::areItemStackTagsEqual->func_77970_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[5637,5645]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getCount ()I[5661,5669]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/getSlotStackLimit ()I[5712,5729]::getSlotStackLimit->func_75219_a
+Rename method net/minecraft/item/ItemStack/getMaxStackSize ()I[5734,5749]::getMaxStackSize->func_77976_d
+Rename method net/minecraft/item/ItemStack/setCount (I)V[5790,5798]::setCount->func_190920_e
+Rename method net/minecraft/item/ItemStack/setCount (I)V[5825,5833]::setCount->func_190920_e
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[5855,5863]::putStack->func_75215_d
+Rename method net/minecraft/item/ItemStack/getCount ()I[5927,5935]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/shrink (I)V[5969,5975]::shrink->func_190918_g
+Rename method net/minecraft/item/ItemStack/getCount ()I[6003,6011]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/setCount (I)V[6038,6046]::setCount->func_190920_e
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[6074,6082]::putStack->func_75215_d
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[6231,6238]::isEmpty->func_190926_b
+Rename field net/minecraft/inventory/Container/inventorySlots[6515,6529]::inventorySlots->field_75151_b
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[6571,6579]::getStack->func_75211_c
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[6607,6614]::isEmpty->func_190926_b
+Rename method net/minecraft/inventory/Slot/isItemValid (Lnet/minecraft/item/ItemStack;)Z[6632,6643]::isItemValid->func_75214_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[6671,6679]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/getSlotStackLimit ()I[6695,6712]::getSlotStackLimit->func_75219_a
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[6726,6734]::putStack->func_75215_d
+Rename method net/minecraft/item/ItemStack/splitStack (I)Lnet/minecraft/item/ItemStack;[6745,6755]::splitStack->func_77979_a
+Rename method net/minecraft/inventory/Slot/getSlotStackLimit ()I[6764,6781]::getSlotStackLimit->func_75219_a
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[6810,6818]::putStack->func_75215_d
+Rename method net/minecraft/item/ItemStack/splitStack (I)Lnet/minecraft/item/ItemStack;[6829,6839]::splitStack->func_77979_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[6848,6856]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/onSlotChanged ()V[6887,6900]::onSlotChanged->func_75218_e
+Rename method net/minecraft/inventory/Container/onContainerClosed (Lnet/minecraft/entity/player/EntityPlayer;)V[7072,7089]::onContainerClosed->func_75134_a
+Rename method net/minecraft/inventory/Container/onContainerClosed (Lnet/minecraft/entity/player/EntityPlayer;)V[7119,7136]::onContainerClosed->func_75134_a
+Rename method net/minecraft/inventory/Container/clearContainer (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/inventory/IInventory;)V[7239,7253]::clearContainer->func_193327_a
+Rename field net/minecraft/entity/Entity/world[7272,7277]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[7410,7418]::isRemote->field_72995_K
+FOUND CONSTR method net/mcreator/foodstuff/gui/GuiGlazerMenu/GuiWindow/GuiWindow (Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V net/mcreator/foodstuff/gui/GuiGlazerMenu/GuiWindow
+Rename field net/minecraft/client/gui/inventory/GuiContainer/xSize[7963,7968]::xSize->field_146999_f
+Rename field net/minecraft/client/gui/inventory/GuiContainer/ySize[7993,7998]::ySize->field_147000_g
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[8154,8164]::drawScreen->func_73863_a
+Rename method net/minecraft/client/gui/GuiScreen/drawDefaultBackground ()V[8221,8242]::drawDefaultBackground->func_146276_q_
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[8248,8258]::drawScreen->func_73863_a
+Rename method net/minecraft/client/gui/inventory/GuiContainer/renderHoveredToolTip (II)V[8300,8320]::renderHoveredToolTip->func_191948_b
+Rename method net/minecraft/client/gui/inventory/GuiContainer/drawGuiContainerBackgroundLayer (FII)V[8365,8396]::drawGuiContainerBackgroundLayer->func_146976_a
+Rename field net/minecraft/client/gui/GuiScreen/mc[8464,8466]::mc->field_146297_k
+Rename field net/minecraft/client/Minecraft/renderEngine[8479,8491]::renderEngine->field_71446_o
+Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[8493,8504]::bindTexture->func_110577_a
+Rename field net/minecraft/client/gui/GuiScreen/width[8534,8539]::width->field_146294_l
+Rename field net/minecraft/client/gui/inventory/GuiContainer/xSize[8556,8561]::xSize->field_146999_f
+Rename field net/minecraft/client/gui/GuiScreen/height[8594,8600]::height->field_146295_m
+Rename field net/minecraft/client/gui/inventory/GuiContainer/ySize[8616,8621]::ySize->field_147000_g
+Rename method net/minecraft/client/gui/Gui/drawTexturedModalRect (IIIIII)V[8645,8666]::drawTexturedModalRect->func_73729_b
+Rename field net/minecraft/client/gui/inventory/GuiContainer/xSize[8675,8680]::xSize->field_146999_f
+Rename field net/minecraft/client/gui/inventory/GuiContainer/ySize[8696,8701]::ySize->field_147000_g
+Rename field net/minecraft/client/gui/Gui/zLevel[8716,8722]::zLevel->field_73735_i
+Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[8771,8783]::updateScreen->func_73876_c
+Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[8797,8809]::updateScreen->func_73876_c
+Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[8847,8859]::mouseClicked->func_73864_a
+Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[8931,8943]::mouseClicked->func_73864_a
+Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[9008,9016]::keyTyped->func_73869_a
+Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[9080,9088]::keyTyped->func_73869_a
+Rename method net/minecraft/client/gui/inventory/GuiContainer/drawGuiContainerForegroundLayer (II)V[9148,9179]::drawGuiContainerForegroundLayer->func_146979_b
+Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[9192,9204]::fontRenderer->field_146289_q
+Rename method net/minecraft/client/gui/FontRenderer/drawString (Ljava/lang/String;III)I[9207,9217]::drawString->func_78276_b
+Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[9280,9291]::onGuiClosed->func_146281_b
+Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[9307,9318]::onGuiClosed->func_146281_b
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[9394,9401]::initGui->func_73866_w_
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[9421,9428]::initGui->func_73866_w_
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[9446,9453]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/GuiScreen/width[9469,9474]::width->field_146294_l
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[9504,9510]::guiTop->field_147009_r
+Rename field net/minecraft/client/gui/GuiScreen/height[9527,9533]::height->field_146295_m
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[9600,9610]::buttonList->field_146292_n
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[9632,9642]::buttonList->field_146292_n
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[9673,9680]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[9699,9705]::guiTop->field_147009_r
+Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[9773,9788]::actionPerformed->func_146284_a
+Rename field net/minecraft/client/gui/GuiButton/id[9883,9885]::id->field_146127_k
+Rename field net/minecraft/client/gui/GuiButton/id[9947,9949]::id->field_146127_k
+Rename method net/minecraft/client/gui/GuiScreen/doesGuiPauseGame ()Z[10007,10023]::doesGuiPauseGame->func_73868_f
+Rename field net/minecraft/network/NetHandlerPlayServer/player[10318,10324]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[10344,10358]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[10359,10375]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[10832,10838]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[10858,10872]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[10873,10889]::addScheduledTask->func_152344_a
+FOUND CONSTR method net/mcreator/foodstuff/gui/GuiGlazerMenu/GUIButtonPressedMessage/GUIButtonPressedMessage ()V net/mcreator/foodstuff/gui/GuiGlazerMenu/GUIButtonPressedMessage
+FOUND CONSTR method net/mcreator/foodstuff/gui/GuiGlazerMenu/GUIButtonPressedMessage/GUIButtonPressedMessage (IIII)V net/mcreator/foodstuff/gui/GuiGlazerMenu/GUIButtonPressedMessage
+FOUND CONSTR method net/mcreator/foodstuff/gui/GuiGlazerMenu/GUISlotChangedMessage/GUISlotChangedMessage ()V net/mcreator/foodstuff/gui/GuiGlazerMenu/GUISlotChangedMessage
+FOUND CONSTR method net/mcreator/foodstuff/gui/GuiGlazerMenu/GUISlotChangedMessage/GUISlotChangedMessage (IIIIII)V net/mcreator/foodstuff/gui/GuiGlazerMenu/GUISlotChangedMessage
+Rename field net/minecraft/entity/Entity/world[12691,12696]::world->field_70170_p
+Rename method net/minecraft/world/World/isBlockLoaded (Lnet/minecraft/util/math/BlockPos;)Z[12779,12792]::isBlockLoaded->func_175667_e
+Rename field net/minecraft/entity/Entity/world[13201,13206]::world->field_70170_p
+Rename method net/minecraft/world/World/isBlockLoaded (Lnet/minecraft/util/math/BlockPos;)Z[13289,13302]::isBlockLoaded->func_175667_e
+Import: org.lwjgl.opengl.GL11
+Import: org.lwjgl.input.Keyboard
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.inventory.Slot
+Import: net.minecraft.inventory.InventoryBasic
+Import: net.minecraft.inventory.IInventory
+Import: net.minecraft.inventory.Container
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.client.gui.inventory.GuiContainer
+Import: net.minecraft.client.gui.GuiButton
+Import: net.mcreator.foodstuff.procedure.ProcedureOnGlazerMenuCraft
+Import: net.mcreator.foodstuff.Foodstuff
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+Import: java.util.function.Supplier
+Import: java.util.Map
+Import: java.util.HashMap
+Import: java.io.IOException
+End  Processing: net/mcreator/foodstuff/gui/GuiGlazerMenu.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemBamboorolls.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemBamboorolls/ItemBamboorolls (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemBamboorolls
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemBamboorolls/ItemCustom/ItemCustom ()V net/mcreator/foodstuff/item/ItemBamboorolls/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1250,1262]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1270,1282]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1293,1311]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1360,1374]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/FOOD[1386,1390]::FOOD->field_78039_h
+Rename method net/minecraft/item/Item/setContainerItem (Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;[1405,1421]::setContainerItem->func_77642_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1455,1476]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1515,1536]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1596,1611]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemBamboorolls.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemBanana.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemBanana/ItemBanana (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemBanana
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemBanana/ItemFoodCustom/ItemFoodCustom ()V net/mcreator/foodstuff/item/ItemBanana/ItemFoodCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1300,1318]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1357,1371]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/FOOD[1383,1387]::FOOD->field_78039_h
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[1402,1417]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/Item/hasEffect (Lnet/minecraft/item/ItemStack;)Z[1479,1488]::hasEffect->func_77636_d
+Rename method net/minecraft/item/Item/getItemUseAction (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;[1568,1584]::getItemUseAction->func_77661_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemFood
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.EnumAction
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemBanana.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemBoiledrice.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemBoiledrice/ItemBoiledrice (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemBoiledrice
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemBoiledrice/ItemFoodCustom/ItemFoodCustom ()V net/mcreator/foodstuff/item/ItemBoiledrice/ItemFoodCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1315,1333]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1380,1394]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/FOOD[1406,1410]::FOOD->field_78039_h
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[1425,1440]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1473,1494]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getItemUseAction (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;[1556,1572]::getItemUseAction->func_77661_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemFood
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.EnumAction
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemBoiledrice.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemChocolate.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemChocolate/ItemChocolate (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemChocolate
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemChocolate/ItemCustom/ItemCustom ()V net/mcreator/foodstuff/item/ItemChocolate/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1241,1253]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1261,1273]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1285,1303]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1348,1362]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/BREWING[1374,1381]::BREWING->field_78038_k
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1420,1441]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1480,1501]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1561,1576]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemChocolate.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemChocolateglazedbanana.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemChocolateglazedbanana/ItemChocolateglazedbanana (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemChocolateglazedbanana
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemChocolateglazedbanana/ItemFoodCustom/ItemFoodCustom ()V net/mcreator/foodstuff/item/ItemChocolateglazedbanana/ItemFoodCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1510,1528]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1597,1611]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/FOOD[1623,1627]::FOOD->field_78039_h
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[1642,1657]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/Item/getItemUseAction (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;[1697,1713]::getItemUseAction->func_77661_b
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1797,1808]::onFoodEaten->func_77849_c
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1876,1887]::onFoodEaten->func_77849_c
+Rename field net/minecraft/entity/Entity/posX[1940,1944]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[1979,1983]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[2018,2022]::posZ->field_70161_v
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemFood
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.EnumAction
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.foodstuff.procedure.ProcedureTuntuntuntuntunrun
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemChocolateglazedbanana.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemDough.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemDough/ItemDough (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemDough
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemDough/ItemCustom/ItemCustom ()V net/mcreator/foodstuff/item/ItemDough/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1225,1237]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1245,1257]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1269,1287]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1324,1338]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/BREWING[1350,1357]::BREWING->field_78038_k
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1396,1417]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1456,1477]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1537,1552]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemDough.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemDoughnut.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemDoughnut/ItemDoughnut (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemDoughnut
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemDoughnut/ItemFoodCustom/ItemFoodCustom ()V net/mcreator/foodstuff/item/ItemDoughnut/ItemFoodCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1459,1477]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/ItemFood/setAlwaysEdible ()Lnet/minecraft/item/ItemFood;[1520,1535]::setAlwaysEdible->func_77848_i
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1539,1553]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/FOOD[1565,1569]::FOOD->field_78039_h
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[1584,1599]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1632,1653]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getItemUseAction (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;[1715,1731]::getItemUseAction->func_77661_b
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1815,1826]::onFoodEaten->func_77849_c
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1894,1905]::onFoodEaten->func_77849_c
+Rename field net/minecraft/entity/Entity/posX[1958,1962]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[1997,2001]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[2036,2040]::posZ->field_70161_v
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemFood
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.EnumAction
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.foodstuff.procedure.ProcedureTuntuntuntuntunrun
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemDoughnut.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemFlower.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemFlower/ItemFlower (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemFlower
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemFlower/ItemCustom/ItemCustom ()V net/mcreator/foodstuff/item/ItemFlower/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1230,1242]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1250,1262]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1274,1292]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1331,1345]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/BREWING[1357,1364]::BREWING->field_78038_k
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1403,1424]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1463,1484]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1544,1559]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemFlower.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemGrinder.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemGrinder/ItemGrinder (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemGrinder
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemGrinder/ItemCustom/ItemCustom ()V net/mcreator/foodstuff/item/ItemGrinder/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1234,1246]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1254,1266]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1278,1296]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1337,1351]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/MISC[1363,1367]::MISC->field_78026_f
+Rename method net/minecraft/item/Item/setContainerItem (Lnet/minecraft/item/Item;)Lnet/minecraft/item/Item;[1382,1398]::setContainerItem->func_77642_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1432,1453]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1492,1513]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1573,1588]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemGrinder.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemGrindingstones.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemGrindingstones/ItemGrindingstones (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemGrindingstones
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemGrindingstones/ItemFoodCustom/ItemFoodCustom ()V net/mcreator/foodstuff/item/ItemGrindingstones/ItemFoodCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1467,1485]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/ItemFood/setAlwaysEdible ()Lnet/minecraft/item/ItemFood;[1540,1555]::setAlwaysEdible->func_77848_i
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1559,1573]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/BREWING[1585,1592]::BREWING->field_78038_k
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[1604,1619]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/Item/hasEffect (Lnet/minecraft/item/ItemStack;)Z[1681,1690]::hasEffect->func_77636_d
+Rename method net/minecraft/item/Item/getItemUseAction (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;[1770,1786]::getItemUseAction->func_77661_b
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1870,1881]::onFoodEaten->func_77849_c
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1949,1960]::onFoodEaten->func_77849_c
+Rename field net/minecraft/entity/Entity/posX[2013,2017]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[2052,2056]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[2091,2095]::posZ->field_70161_v
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemFood
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.EnumAction
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.foodstuff.procedure.ProcedureHot
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemGrindingstones.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemPepperfood.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemPepperfood/ItemPepperfood (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemPepperfood
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemPepperfood/ItemFoodCustom/ItemFoodCustom ()V net/mcreator/foodstuff/item/ItemPepperfood/ItemFoodCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1452,1470]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1517,1531]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/FOOD[1543,1547]::FOOD->field_78039_h
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[1562,1577]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/Item/getItemUseAction (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;[1617,1633]::getItemUseAction->func_77661_b
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1717,1728]::onFoodEaten->func_77849_c
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1796,1807]::onFoodEaten->func_77849_c
+Rename field net/minecraft/entity/Entity/posX[1860,1864]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[1899,1903]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[1938,1942]::posZ->field_70161_v
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemFood
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.EnumAction
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.foodstuff.procedure.ProcedureHot
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemPepperfood.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemPeppersand.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemPeppersand/ItemPeppersand (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemPeppersand
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemPeppersand/ItemFoodCustom/ItemFoodCustom ()V net/mcreator/foodstuff/item/ItemPeppersand/ItemFoodCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1453,1471]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1518,1532]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/FOOD[1544,1548]::FOOD->field_78039_h
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[1563,1578]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/Item/getItemUseAction (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;[1618,1634]::getItemUseAction->func_77661_b
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1718,1729]::onFoodEaten->func_77849_c
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1797,1808]::onFoodEaten->func_77849_c
+Rename field net/minecraft/entity/Entity/posX[1861,1865]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[1900,1904]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[1939,1943]::posZ->field_70161_v
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemFood
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.EnumAction
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.foodstuff.procedure.ProcedureHot
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemPeppersand.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemPizza.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemPizza/ItemPizza (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemPizza
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemPizza/ItemFoodCustom/ItemFoodCustom ()V net/mcreator/foodstuff/item/ItemPizza/ItemFoodCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1449,1467]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1504,1518]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/FOOD[1530,1534]::FOOD->field_78039_h
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[1549,1564]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/Item/getItemUseAction (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;[1603,1619]::getItemUseAction->func_77661_b
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1703,1714]::onFoodEaten->func_77849_c
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1782,1793]::onFoodEaten->func_77849_c
+Rename field net/minecraft/entity/Entity/posX[1846,1850]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[1885,1889]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[1924,1928]::posZ->field_70161_v
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemFood
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.EnumAction
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.foodstuff.procedure.ProcedureTuntuntuntuntunrun
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemPizza.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemRiceItem.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemRiceItem/ItemRiceItem (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemRiceItem
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemRiceItem/ItemCustom/ItemCustom ()V net/mcreator/foodstuff/item/ItemRiceItem/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1238,1250]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1258,1270]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1282,1300]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1343,1357]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/BREWING[1369,1376]::BREWING->field_78038_k
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1415,1436]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1475,1496]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1556,1571]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemRiceItem.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemSaltpowder.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemSaltpowder/ItemSaltpowder (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemSaltpowder
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemSaltpowder/ItemCustom/ItemCustom ()V net/mcreator/foodstuff/item/ItemSaltpowder/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1245,1257]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1265,1277]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1289,1307]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1354,1368]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/BREWING[1380,1387]::BREWING->field_78038_k
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1426,1447]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1486,1507]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1567,1582]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.Item
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemSaltpowder.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemSausage.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemSausage/ItemSausage (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemSausage
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemSausage/ItemFoodCustom/ItemFoodCustom ()V net/mcreator/foodstuff/item/ItemSausage/ItemFoodCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1303,1321]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1362,1376]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/FOOD[1388,1392]::FOOD->field_78039_h
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[1407,1422]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/Item/getItemUseAction (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;[1462,1478]::getItemUseAction->func_77661_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemFood
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.EnumAction
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemSausage.java
+
+Start Processing: net/mcreator/foodstuff/item/ItemSushi.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemSushi/ItemSushi (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/item/ItemSushi
+FOUND CONSTR method net/mcreator/foodstuff/item/ItemSushi/ItemFoodCustom/ItemFoodCustom ()V net/mcreator/foodstuff/item/ItemSushi/ItemFoodCustom
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1448,1466]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1503,1517]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/FOOD[1529,1533]::FOOD->field_78039_h
+Rename method net/minecraft/item/Item/setMaxStackSize (I)Lnet/minecraft/item/Item;[1548,1563]::setMaxStackSize->func_77625_d
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1596,1617]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getItemUseAction (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;[1679,1695]::getItemUseAction->func_77661_b
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1779,1790]::onFoodEaten->func_77849_c
+Rename method net/minecraft/item/ItemFood/onFoodEaten (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V[1858,1869]::onFoodEaten->func_77849_c
+Rename field net/minecraft/entity/Entity/posX[1922,1926]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[1961,1965]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[2000,2004]::posZ->field_70161_v
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemFood
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.EnumAction
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.mcreator.foodstuff.procedure.ProcedureTuntuntuntuntunrun
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/item/ItemSushi.java
+
+Start Processing: net/mcreator/foodstuff/potion/PotionFoodpoisoning.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/foodstuff/potion/PotionFoodpoisoning/PotionFoodpoisoning (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/potion/PotionFoodpoisoning
+FOUND CONSTR method net/mcreator/foodstuff/potion/PotionFoodpoisoning/PotionTypeCustom/PotionTypeCustom ()V net/mcreator/foodstuff/potion/PotionFoodpoisoning/PotionTypeCustom
+FOUND CONSTR method net/mcreator/foodstuff/potion/PotionFoodpoisoning/PotionCustom/PotionCustom ()V net/mcreator/foodstuff/potion/PotionFoodpoisoning/PotionCustom
+Rename method net/minecraft/potion/Potion/setPotionName (Ljava/lang/String;)Lnet/minecraft/potion/Potion;[1918,1931]::setPotionName->func_76390_b
+Rename method net/minecraft/potion/Potion/isInstant ()Z[2079,2088]::isInstant->func_76403_b
+Rename field net/minecraft/init/Items/WATER_BUCKET[2250,2262]::WATER_BUCKET->field_151131_as
+Rename method net/minecraft/potion/Potion/affectEntity (Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/Entity;Lnet/minecraft/entity/EntityLivingBase;ID)V[2508,2520]::affectEntity->func_180793_a
+Rename field net/minecraft/entity/Entity/world[2641,2646]::world->field_70170_p
+Rename field net/minecraft/entity/Entity/posX[2680,2684]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[2719,2723]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[2758,2762]::posZ->field_70161_v
+Rename field net/minecraft/client/Minecraft/currentScreen[3102,3115]::currentScreen->field_71462_r
+Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[3134,3151]::getTextureManager->func_110434_K
+Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[3150,3161]::bindTexture->func_110577_a
+Rename method net/minecraft/client/gui/Gui/drawModalRectWithCustomSizedTexture (IIFFIIFF)V[3185,3220]::drawModalRectWithCustomSizedTexture->func_146110_a
+Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[3383,3400]::getTextureManager->func_110434_K
+Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[3399,3410]::bindTexture->func_110577_a
+Rename method net/minecraft/client/gui/Gui/drawModalRectWithCustomSizedTexture (IIFFIIFF)V[3433,3468]::drawModalRectWithCustomSizedTexture->func_146110_a
+Rename method net/minecraft/potion/Potion/isReady (II)Z[3518,3525]::isReady->func_76397_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.ForgeRegistries
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.potion.PotionType
+Import: net.minecraft.potion.PotionEffect
+Import: net.minecraft.potion.Potion
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.init.Items
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.client.gui.Gui
+Import: net.minecraft.client.Minecraft
+Import: net.mcreator.foodstuff.procedure.ProcedurePoisoned
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+Import: java.util.List
+Import: java.util.ArrayList
+End  Processing: net/mcreator/foodstuff/potion/PotionFoodpoisoning.java
+
+Start Processing: net/mcreator/foodstuff/procedure/ProcedureHot.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+FOUND CONSTR method net/mcreator/foodstuff/procedure/ProcedureHot/ProcedureHot (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/procedure/ProcedureHot
+Rename method net/minecraft/entity/EntityLivingBase/addPotionEffect (Lnet/minecraft/potion/PotionEffect;)V[842,857]::addPotionEffect->func_70690_d
+Rename field net/minecraft/init/MobEffects/NAUSEA[883,889]::NAUSEA->field_76431_k
+Rename method net/minecraft/entity/EntityLivingBase/addPotionEffect (Lnet/minecraft/potion/PotionEffect;)V[997,1012]::addPotionEffect->func_70690_d
+Import: net.minecraft.potion.PotionEffect
+Import: net.minecraft.init.MobEffects
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.entity.Entity
+Import: net.mcreator.foodstuff.potion.PotionFoodpoisoning
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/procedure/ProcedureHot.java
+
+Start Processing: net/mcreator/foodstuff/procedure/ProcedureOnGlazerMenuCraft.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+FOUND CONSTR method net/mcreator/foodstuff/procedure/ProcedureOnGlazerMenuCraft/ProcedureOnGlazerMenuCraft (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/procedure/ProcedureOnGlazerMenuCraft
+Rename field net/minecraft/entity/player/EntityPlayer/openContainer[1178,1191]::openContainer->field_71070_bA
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[1370,1378]::getStack->func_75211_c
+Rename field net/minecraft/item/ItemStack/EMPTY[1428,1433]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1478,1485]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1542,1549]::getItem->func_77973_b
+Rename field net/minecraft/entity/player/EntityPlayer/openContainer[1730,1743]::openContainer->field_71070_bA
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[1926,1934]::getStack->func_75211_c
+Rename field net/minecraft/item/ItemStack/EMPTY[1988,1993]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2040,2047]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2101,2108]::getItem->func_77973_b
+Rename field net/minecraft/entity/player/EntityPlayer/openContainer[2216,2229]::openContainer->field_71070_bA
+Rename method net/minecraft/inventory/Slot/decrStackSize (I)Lnet/minecraft/item/ItemStack;[2405,2418]::decrStackSize->func_75209_a
+Rename method net/minecraft/inventory/Container/detectAndSendChanges ()V[2446,2466]::detectAndSendChanges->func_75142_b
+Rename field net/minecraft/entity/player/EntityPlayer/openContainer[2579,2592]::openContainer->field_71070_bA
+Rename method net/minecraft/inventory/Slot/decrStackSize (I)Lnet/minecraft/item/ItemStack;[2768,2781]::decrStackSize->func_75209_a
+Rename method net/minecraft/inventory/Container/detectAndSendChanges ()V[2809,2829]::detectAndSendChanges->func_75142_b
+Rename field net/minecraft/entity/player/EntityPlayer/openContainer[2942,2955]::openContainer->field_71070_bA
+Rename method net/minecraft/item/ItemStack/setCount (I)V[3190,3198]::setCount->func_190920_e
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[3254,3262]::putStack->func_75215_d
+Rename method net/minecraft/inventory/Container/detectAndSendChanges ()V[3295,3315]::detectAndSendChanges->func_75142_b
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.inventory.Slot
+Import: net.minecraft.inventory.Container
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.Entity
+Import: net.mcreator.foodstuff.item.ItemChocolateglazedbanana
+Import: net.mcreator.foodstuff.item.ItemChocolate
+Import: net.mcreator.foodstuff.item.ItemBanana
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+Import: java.util.function.Supplier
+Import: java.util.Map
+End  Processing: net/mcreator/foodstuff/procedure/ProcedureOnGlazerMenuCraft.java
+
+Start Processing: net/mcreator/foodstuff/procedure/ProcedurePoisoned.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+FOUND CONSTR method net/mcreator/foodstuff/procedure/ProcedurePoisoned/ProcedurePoisoned (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/procedure/ProcedurePoisoned
+Rename method net/minecraft/entity/EntityLivingBase/addPotionEffect (Lnet/minecraft/potion/PotionEffect;)V[799,814]::addPotionEffect->func_70690_d
+Rename field net/minecraft/init/MobEffects/POISON[840,846]::POISON->field_76436_u
+Import: net.minecraft.potion.PotionEffect
+Import: net.minecraft.init.MobEffects
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.entity.Entity
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/procedure/ProcedurePoisoned.java
+
+Start Processing: net/mcreator/foodstuff/procedure/ProcedureTuntuntuntuntunrun.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+FOUND CONSTR method net/mcreator/foodstuff/procedure/ProcedureTuntuntuntuntunrun/ProcedureTuntuntuntuntunrun (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/procedure/ProcedureTuntuntuntuntunrun
+Rename method net/minecraft/entity/EntityLivingBase/addPotionEffect (Lnet/minecraft/potion/PotionEffect;)V[830,845]::addPotionEffect->func_70690_d
+Rename field net/minecraft/init/MobEffects/SPEED[871,876]::SPEED->field_76424_c
+Rename method net/minecraft/entity/EntityLivingBase/addPotionEffect (Lnet/minecraft/potion/PotionEffect;)V[982,997]::addPotionEffect->func_70690_d
+Rename field net/minecraft/init/MobEffects/HASTE[1023,1028]::HASTE->field_76422_e
+Rename method net/minecraft/entity/EntityLivingBase/addPotionEffect (Lnet/minecraft/potion/PotionEffect;)V[1134,1149]::addPotionEffect->func_70690_d
+Rename field net/minecraft/init/MobEffects/JUMP_BOOST[1175,1185]::JUMP_BOOST->field_76430_j
+Rename method net/minecraft/entity/EntityLivingBase/addPotionEffect (Lnet/minecraft/potion/PotionEffect;)V[1286,1301]::addPotionEffect->func_70690_d
+Rename field net/minecraft/init/MobEffects/REGENERATION[1327,1339]::REGENERATION->field_76428_l
+Rename method net/minecraft/entity/EntityLivingBase/addPotionEffect (Lnet/minecraft/potion/PotionEffect;)V[1438,1453]::addPotionEffect->func_70690_d
+Rename field net/minecraft/init/MobEffects/STRENGTH[1479,1487]::STRENGTH->field_76420_g
+Import: net.minecraft.potion.PotionEffect
+Import: net.minecraft.init.MobEffects
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.entity.Entity
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/procedure/ProcedureTuntuntuntuntunrun.java
+
+Start Processing: net/mcreator/foodstuff/procedure/ProcedureWhattriggered.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+FOUND CONSTR method net/mcreator/foodstuff/procedure/ProcedureWhattriggered/ProcedureWhattriggered (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/procedure/ProcedureWhattriggered
+Rename field net/minecraft/world/World/isRemote[1318,1326]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMinecraftServer ()Lnet/minecraft/server/MinecraftServer;[1341,1359]::getMinecraftServer->func_73046_m
+Rename method net/minecraft/world/World/getMinecraftServer ()Lnet/minecraft/server/MinecraftServer;[1376,1394]::getMinecraftServer->func_73046_m
+Rename method net/minecraft/server/MinecraftServer/getCommandManager ()Lnet/minecraft/command/ICommandManager;[1391,1408]::getCommandManager->func_71187_D
+Rename method net/minecraft/command/ICommandManager/executeCommand (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I[1406,1420]::executeCommand->func_71556_a
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[1474,1481]::getName->func_70005_c_
+Rename method net/minecraft/command/ICommandSender/canUseCommand (ILjava/lang/String;)Z[1548,1561]::canUseCommand->func_70003_b
+Rename method net/minecraft/command/ICommandSender/getEntityWorld ()Lnet/minecraft/world/World;[1651,1665]::getEntityWorld->func_130014_f_
+Rename method net/minecraft/command/ICommandSender/getServer ()Lnet/minecraft/server/MinecraftServer;[1737,1746]::getServer->func_184102_h
+Rename method net/minecraft/world/World/getMinecraftServer ()Lnet/minecraft/server/MinecraftServer;[1773,1791]::getMinecraftServer->func_73046_m
+Rename method net/minecraft/command/ICommandSender/sendCommandFeedback ()Z[1829,1848]::sendCommandFeedback->func_174792_t_
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[1908,1919]::getPosition->func_180425_c
+Rename method net/minecraft/command/ICommandSender/getPositionVector ()Lnet/minecraft/util/math/Vec3d;[2017,2034]::getPositionVector->func_174791_d
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.Vec3d
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.server.MinecraftServer
+Import: net.minecraft.command.ICommandSender
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+End  Processing: net/mcreator/foodstuff/procedure/ProcedureWhattriggered.java
+
+Start Processing: net/mcreator/foodstuff/world/structure/StructureBananatree.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+FOUND CONSTR method net/mcreator/foodstuff/world/structure/StructureBananatree/StructureBananatree (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/world/structure/StructureBananatree
+Rename method net/minecraft/world/IBlockAccess/isAirBlock (Lnet/minecraft/util/math/BlockPos;)Z[1519,1529]::isAirBlock->func_175623_d
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1571,1584]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1613,1621]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[1638,1649]::getMaterial->func_149688_o
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1658,1671]::getBlockState->func_180495_p
+Rename method net/minecraft/block/material/Material/blocksMovement ()Z[1701,1715]::blocksMovement->func_76230_c
+Rename method net/minecraft/world/IBlockAccess/isAirBlock (Lnet/minecraft/util/math/BlockPos;)Z[1780,1790]::isAirBlock->func_175623_d
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1831,1844]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1882,1890]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[1898,1909]::getMaterial->func_149688_o
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1918,1931]::getBlockState->func_180495_p
+Rename method net/minecraft/block/material/Material/blocksMovement ()Z[1961,1975]::blocksMovement->func_76230_c
+Rename method net/minecraft/world/IBlockAccess/isAirBlock (Lnet/minecraft/util/math/BlockPos;)Z[2070,2080]::isAirBlock->func_175623_d
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2121,2134]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2163,2171]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[2188,2199]::getMaterial->func_149688_o
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2208,2221]::getBlockState->func_180495_p
+Rename method net/minecraft/block/material/Material/blocksMovement ()Z[2251,2265]::blocksMovement->func_76230_c
+Rename field net/minecraft/world/World/isRemote[2348,2356]::isRemote->field_72995_K
+Rename method net/minecraft/world/WorldServer/getStructureTemplateManager ()Lnet/minecraft/world/gen/structure/template/TemplateManager;[2422,2449]::getStructureTemplateManager->func_184163_y
+Rename method net/minecraft/world/gen/structure/template/TemplateManager/getTemplate (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/gen/structure/template/Template;[2438,2449]::getTemplate->func_186237_a
+Rename method net/minecraft/world/World/getMinecraftServer ()Lnet/minecraft/server/MinecraftServer;[2458,2476]::getMinecraftServer->func_73046_m
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2774,2787]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[2808,2825]::notifyBlockUpdate->func_184138_a
+Rename method net/minecraft/world/gen/structure/template/Template/addBlocksToWorldChunk (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/gen/structure/template/PlacementSettings;)V[2874,2895]::addBlocksToWorldChunk->func_186260_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[2928,2939]::setRotation->func_186220_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setMirror (Lnet/minecraft/util/Mirror;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[2952,2961]::setMirror->func_186214_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setChunk (Lnet/minecraft/util/math/ChunkPos;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[2981,2989]::setChunk->func_186218_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setReplacedBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[3012,3028]::setReplacedBlock->func_186225_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setIgnoreStructureBlock (Z)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[3040,3063]::setIgnoreStructureBlock->func_186226_b
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setIgnoreEntities (Z)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[3061,3078]::setIgnoreEntities->func_186222_a
+Import: net.minecraft.world.gen.structure.template.Template
+Import: net.minecraft.world.gen.structure.template.PlacementSettings
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.WorldServer
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.ChunkPos
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.Rotation
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.util.Mirror
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.Block
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+Import: java.util.Random
+End  Processing: net/mcreator/foodstuff/world/structure/StructureBananatree.java
+
+Start Processing: net/mcreator/foodstuff/world/structure/StructureBanannatree.java
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+New Key: class net/mcreator/foodstuff/ElementsFoodstuff
+FOUND CONSTR method net/mcreator/foodstuff/world/structure/StructureBanannatree/StructureBanannatree (Lnet/mcreator/foodstuff/ElementsFoodstuff;)V net/mcreator/foodstuff/world/structure/StructureBanannatree
+Rename method net/minecraft/world/IBlockAccess/isAirBlock (Lnet/minecraft/util/math/BlockPos;)Z[1521,1531]::isAirBlock->func_175623_d
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1573,1586]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1615,1623]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[1640,1651]::getMaterial->func_149688_o
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1660,1673]::getBlockState->func_180495_p
+Rename method net/minecraft/block/material/Material/blocksMovement ()Z[1703,1717]::blocksMovement->func_76230_c
+Rename method net/minecraft/world/IBlockAccess/isAirBlock (Lnet/minecraft/util/math/BlockPos;)Z[1782,1792]::isAirBlock->func_175623_d
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1833,1846]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1884,1892]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[1900,1911]::getMaterial->func_149688_o
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1920,1933]::getBlockState->func_180495_p
+Rename method net/minecraft/block/material/Material/blocksMovement ()Z[1963,1977]::blocksMovement->func_76230_c
+Rename method net/minecraft/world/IBlockAccess/isAirBlock (Lnet/minecraft/util/math/BlockPos;)Z[2072,2082]::isAirBlock->func_175623_d
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2123,2136]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2165,2173]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getMaterial (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/Material;[2190,2201]::getMaterial->func_149688_o
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2210,2223]::getBlockState->func_180495_p
+Rename method net/minecraft/block/material/Material/blocksMovement ()Z[2253,2267]::blocksMovement->func_76230_c
+Rename field net/minecraft/world/World/isRemote[2350,2358]::isRemote->field_72995_K
+Rename method net/minecraft/world/WorldServer/getStructureTemplateManager ()Lnet/minecraft/world/gen/structure/template/TemplateManager;[2424,2451]::getStructureTemplateManager->func_184163_y
+Rename method net/minecraft/world/gen/structure/template/TemplateManager/getTemplate (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/world/gen/structure/template/Template;[2440,2451]::getTemplate->func_186237_a
+Rename method net/minecraft/world/World/getMinecraftServer ()Lnet/minecraft/server/MinecraftServer;[2460,2478]::getMinecraftServer->func_73046_m
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2776,2789]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/notifyBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;I)V[2810,2827]::notifyBlockUpdate->func_184138_a
+Rename method net/minecraft/world/gen/structure/template/Template/addBlocksToWorldChunk (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/gen/structure/template/PlacementSettings;)V[2876,2897]::addBlocksToWorldChunk->func_186260_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[2930,2941]::setRotation->func_186220_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setMirror (Lnet/minecraft/util/Mirror;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[2954,2963]::setMirror->func_186214_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setChunk (Lnet/minecraft/util/math/ChunkPos;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[2983,2991]::setChunk->func_186218_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setReplacedBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[3014,3030]::setReplacedBlock->func_186225_a
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setIgnoreStructureBlock (Z)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[3042,3065]::setIgnoreStructureBlock->func_186226_b
+Rename method net/minecraft/world/gen/structure/template/PlacementSettings/setIgnoreEntities (Z)Lnet/minecraft/world/gen/structure/template/PlacementSettings;[3063,3080]::setIgnoreEntities->func_186222_a
+Import: net.minecraft.world.gen.structure.template.Template
+Import: net.minecraft.world.gen.structure.template.PlacementSettings
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.WorldServer
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.ChunkPos
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.Rotation
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.util.Mirror
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.Block
+Import: net.mcreator.foodstuff.ElementsFoodstuff
+Import: java.util.Random
+End  Processing: net/mcreator/foodstuff/world/structure/StructureBanannatree.java
+

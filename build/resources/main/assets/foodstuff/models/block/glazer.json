@@ -1,0 +1,8 @@
+{
+  "parent": "block/half_slab",
+  "textures": {
+    "bottom": "foodstuff:blocks/chocolate_blocks",
+    "top": "foodstuff:blocks/chocolate_blocks",
+    "side": "foodstuff:blocks/chocolate_blocks"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "foodstuff",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "foodstuff:grinder"
+    }
+  ],
+  "result": {
+    "item": "foodstuff:flower",
+    "count": 1
+  }
+}

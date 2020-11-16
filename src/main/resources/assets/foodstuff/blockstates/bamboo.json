@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=1": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=2": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=3": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=4": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=5": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=6": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=7": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=8": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=9": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=10": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=11": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=12": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=13": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=14": {
+      "model": "foodstuff:bamboo"
+    },
+    "age=15": {
+      "model": "foodstuff:bamboo"
+    }
+  }
+}

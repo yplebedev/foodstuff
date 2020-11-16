@@ -1,0 +1,28 @@
+{
+  "group": "foodstuff",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodstuff:chocolate"
+    },
+    {
+      "item": "foodstuff:chocolate"
+    },
+    {
+      "item": "foodstuff:chocolate"
+    },
+    {
+      "item": "foodstuff:dough"
+    },
+    {
+      "item": "foodstuff:dough"
+    },
+    {
+      "item": "foodstuff:dough"
+    }
+  ],
+  "result": {
+    "item": "foodstuff:doughnut",
+    "count": 3
+  }
+}

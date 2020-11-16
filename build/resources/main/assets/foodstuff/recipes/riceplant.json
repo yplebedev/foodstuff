@@ -1,0 +1,16 @@
+{
+  "group": "foodstuff",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "foodstuff:riceitem"
+    }
+  },
+  "result": {
+    "item": "foodstuff:rice",
+    "count": 1
+  }
+}

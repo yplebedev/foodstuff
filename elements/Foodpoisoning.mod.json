@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "potion",
+  "definition": {
+    "name": "Food poison",
+    "effectName": "Food poison",
+    "icon": "food_poisoning_texture.png",
+    "color": {
+      "value": -6684928,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "curativeItems": [
+      {
+        "value": "Items.WATER_BUCKET"
+      }
+    ],
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "Poisoned"
+    }
+  }
+}

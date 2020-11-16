@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foodstuff:blocks/salt_texure",
+    "up": "foodstuff:blocks/salt_texure",
+    "north": "foodstuff:blocks/salt_texure",
+    "east": "foodstuff:blocks/salt_texure",
+    "south": "foodstuff:blocks/salt_texure",
+    "west": "foodstuff:blocks/salt_texure",
+    "particle": "foodstuff:blocks/salt_texure"
+  }
+}

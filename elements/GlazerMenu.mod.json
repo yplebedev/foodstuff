@@ -1,0 +1,72 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Glazer",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Glazer",
+          "x": 400,
+          "y": 86
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 302,
+          "y": 122
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "name": "Slot #1",
+          "x": 303,
+          "y": 182
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "name": "Slot #2",
+          "x": 373,
+          "y": 151
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Glaze",
+          "onClick": {
+            "name": "OnGlazerMenuCraft"
+          },
+          "width": 100,
+          "height": 40,
+          "name": "Glaze",
+          "x": 446,
+          "y": 149
+        }
+      }
+    ]
+  }
+}

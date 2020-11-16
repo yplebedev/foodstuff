@@ -1,0 +1,39 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "bamboo",
+    "customModelName": "Cross model",
+    "plantType": "growapable",
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 14,
+    "name": "Bamboo",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "hardness": 0.1,
+    "resistance": 0.5,
+    "luminance": 0.01,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "colorOnMap": "GRASS",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 2,
+    "fireSpreadSpeed": 2,
+    "frequencyOnChunks": 3,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": []
+  }
+}

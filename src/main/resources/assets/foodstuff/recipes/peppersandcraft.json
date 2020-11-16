@@ -1,0 +1,16 @@
+{
+  "group": "foodstuff",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodstuff:pepperfood"
+    },
+    {
+      "item": "foodstuff:saltpowder"
+    }
+  ],
+  "result": {
+    "item": "foodstuff:peppersand",
+    "count": 3
+  }
+}
