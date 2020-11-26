@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "hocolateoveredanana",
+    "texture": "banana_chocolate1",
     "customModelName": "Normal",
     "name": "Chocolate glazed banana",
     "creativeTab": {

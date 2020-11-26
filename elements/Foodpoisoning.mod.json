@@ -4,7 +4,7 @@
   "definition": {
     "name": "Food poison",
     "effectName": "Food poison",
-    "icon": "food_poisoning_texture.png",
+    "icon": "food_poison_icon.png",
     "color": {
       "value": -6684928,
       "falpha": 0.0

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "grinding_stones",
+    "texture": "salt_powder_texture",
     "customModelName": "Normal",
     "name": "Grinder",
     "creativeTab": {

@@ -1,0 +1,20 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2020-11-26 14:49:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_double_plant": "2020-11-26 14:48:39 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2020-11-26 14:48:39 +0300"
+    },
+    "done": false
+  }
+}

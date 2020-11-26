@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "Sushi",
+    "texture": "ushi",
     "customModelName": "Normal",
     "name": "Sushi",
     "creativeTab": {
