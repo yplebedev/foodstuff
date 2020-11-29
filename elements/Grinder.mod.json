@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "salt_powder_texture",
+    "texture": "stones",
     "customModelName": "Normal",
     "name": "Grinder",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:FoodstuffFromMod"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -1,0 +1,42 @@
+{
+  "group": "foodstuff",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "foodstuff:chocolate"
+    },
+    "1": {
+      "item": "foodstuff:juicerblock"
+    },
+    "2": {
+      "item": "foodstuff:chocolate"
+    },
+    "3": {
+      "item": "foodstuff:foodstuffgem"
+    },
+    "4": {
+      "item": "foodstuff:mixer"
+    },
+    "5": {
+      "item": "foodstuff:foodstuffgem"
+    },
+    "6": {
+      "item": "foodstuff:foodstuffgem"
+    },
+    "7": {
+      "item": "foodstuff:foodstuffgem"
+    },
+    "8": {
+      "item": "foodstuff:foodstuffgem"
+    }
+  },
+  "result": {
+    "item": "foodstuff:glazer",
+    "count": 1
+  }
+}

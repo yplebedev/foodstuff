@@ -9,10 +9,10 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
+import net.mcreator.foodstuff.creativetab.TabFoodstuffFromMod;
 import net.mcreator.foodstuff.ElementsFoodstuff;
 
 @ElementsFoodstuff.ModElement.Tag
@@ -39,7 +39,7 @@ public class ItemSaltpowder extends ElementsFoodstuff.ModElement {
 			maxStackSize = 64;
 			setUnlocalizedName("saltpowder");
 			setRegistryName("saltpowder");
-			setCreativeTab(CreativeTabs.BREWING);
+			setCreativeTab(TabFoodstuffFromMod.tab);
 		}
 
 		@Override

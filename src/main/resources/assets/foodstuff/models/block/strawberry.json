@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "foodstuff:blocks/peper_texture",
+    "particle": "foodstuff:blocks/peper_texture"
+  }
+}

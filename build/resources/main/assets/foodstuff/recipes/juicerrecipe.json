@@ -1,0 +1,32 @@
+{
+  "group": "foodstuff",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "foodstuff:foodstuffgem"
+    },
+    "1": {
+      "item": "foodstuff:bladegrinder"
+    },
+    "2": {
+      "item": "foodstuff:foodstuffgem"
+    },
+    "3": {
+      "item": "minecraft:redstone_block"
+    },
+    "4": {
+      "item": "foodstuff:foodstuffgem"
+    },
+    "5": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "foodstuff:juicerblock",
+    "count": 1
+  }
+}

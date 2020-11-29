@@ -9,10 +9,10 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
+import net.mcreator.foodstuff.creativetab.TabFoodstuffFromMod;
 import net.mcreator.foodstuff.ElementsFoodstuff;
 
 @ElementsFoodstuff.ModElement.Tag
@@ -39,7 +39,7 @@ public class ItemGrinder extends ElementsFoodstuff.ModElement {
 			maxStackSize = 64;
 			setUnlocalizedName("grinder");
 			setRegistryName("grinder");
-			setCreativeTab(CreativeTabs.MISC);
+			setCreativeTab(TabFoodstuffFromMod.tab);
 			setContainerItem(this);
 		}
 

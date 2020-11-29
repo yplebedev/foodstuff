@@ -13,10 +13,10 @@ import net.minecraft.item.ItemFood;
 import net.minecraft.item.Item;
 import net.minecraft.item.EnumAction;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.foodstuff.procedure.ProcedureHot;
+import net.mcreator.foodstuff.creativetab.TabFoodstuffFromMod;
 import net.mcreator.foodstuff.ElementsFoodstuff;
 
 @ElementsFoodstuff.ModElement.Tag
@@ -43,7 +43,7 @@ public class ItemGrindingstones extends ElementsFoodstuff.ModElement {
 			setUnlocalizedName("grindingstones");
 			setRegistryName("grindingstones");
 			setAlwaysEdible();
-			setCreativeTab(CreativeTabs.BREWING);
+			setCreativeTab(TabFoodstuffFromMod.tab);
 			setMaxStackSize(64);
 		}
 

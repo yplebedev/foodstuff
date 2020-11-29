@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Pepper",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:FoodstuffFromMod"
     },
     "stackSize": 64,
     "nutritionalValue": 4,

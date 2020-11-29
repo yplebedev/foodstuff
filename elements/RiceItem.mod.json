@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "stones",
+    "texture": "salt_powder_texture",
     "customModelName": "Normal",
     "name": "Rice (crafting)",
     "creativeTab": {
-      "value": "BREWING"
+      "value": "CUSTOM:FoodstuffFromMod"
     },
     "stackSize": 64,
     "enchantability": 0,

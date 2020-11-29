@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Dough",
     "creativeTab": {
-      "value": "BREWING"
+      "value": "CUSTOM:FoodstuffFromMod"
     },
     "stackSize": 64,
     "enchantability": 0,

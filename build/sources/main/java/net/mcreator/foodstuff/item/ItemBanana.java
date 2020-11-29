@@ -11,9 +11,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.Item;
 import net.minecraft.item.EnumAction;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
+import net.mcreator.foodstuff.creativetab.TabFoodstuffFromMod;
 import net.mcreator.foodstuff.ElementsFoodstuff;
 
 @ElementsFoodstuff.ModElement.Tag
@@ -39,7 +39,7 @@ public class ItemBanana extends ElementsFoodstuff.ModElement {
 			super(6, 0.3f, false);
 			setUnlocalizedName("banana");
 			setRegistryName("banana");
-			setCreativeTab(CreativeTabs.FOOD);
+			setCreativeTab(TabFoodstuffFromMod.tab);
 			setMaxStackSize(64);
 		}
 

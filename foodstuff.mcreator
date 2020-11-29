@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "GUI": 1,
     "ENTITY": 1,
-    "DIMENSION": 1
+    "DIMENSION": 1,
+    "GUI": 3
   },
   "mod_elements": [
     {
@@ -435,34 +435,182 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "FoodstuffFromMod",
+      "type": "tab",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Strawberry",
+      "type": "plant",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Berry",
+      "type": "food",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "JuiceBlock",
+      "type": "gui",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      }
+    },
+    {
+      "name": "JuicerBlock",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Shit",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GivenItemInJuicer",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Juice",
+      "type": "food",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Blade",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BladeGrinder",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FoodstuffOre",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FoodstuffGem",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "JuicerRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mixer",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GlazerRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MixerRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.juice.name": "Juice",
       "item.doughnut.name": "Doughnut",
+      "tile.juicerblock.name": "Juicer Block",
       "item.grindingstones.name": "Grinding stones",
+      "tile.foodstuffore.name": "Foodstuff Ore",
       "item.chocolate.name": "Chocolate",
       "item.pizza.name": "Pizza",
       "tile.pepper.name": "Pepper",
+      "item.shit.name": "Shit",
       "tile.rice.name": "Rice",
+      "item.foodstuffgem.name": "Food-friendly material",
       "tile.glazer.name": "Glazer",
       "tile.leavesforbanana.name": "Leaves for banana",
-      "item.boiledrice.name": "Boiled rice",
       "item.chocolateglazedbanana.name": "Chocolate glazed banana",
+      "item.boiledrice.name": "Boiled rice",
+      "item.berry.name": "Berry",
       "tile.salt.name": "Salt block",
       "item.sausage.name": "Sausage",
       "item.pepperfood.name": "Pepper",
       "item.riceitem.name": "Rice (crafting)",
       "item.flower.name": "Flower",
+      "item.bladegrinder.name": "Blade Grinder",
+      "item.mixer.name": "Mixer",
       "item.grinder.name": "Grinder",
       "item.sushi.name": "Sushi",
       "item.banana.name": "Banana",
       "splash_potion.effect.foodpoisoning": "Splash Food poison",
       "effect.foodpoisoning": "Food poison",
+      "tile.strawberry.name": "Strawberry",
       "item.dough.name": "Dough",
       "tile.bamboo.name": "Bamboo",
+      "itemGroup.tabfoodstufffrommod": "Foodstuff (modded)",
       "lingering_potion.effect.foodpoisoning": "Lingering Food poison",
       "tipped_arrow.effect.foodpoisoning": "Arrow of Food poison",
       "potion.effect.foodpoisoning": "Food poison",

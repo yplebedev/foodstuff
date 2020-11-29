@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Doughnut",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:FoodstuffFromMod"
     },
     "stackSize": 64,
     "nutritionalValue": 2,

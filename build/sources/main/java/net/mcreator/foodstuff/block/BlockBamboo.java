@@ -21,7 +21,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.MapColor;
@@ -29,6 +28,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockReed;
 import net.minecraft.block.Block;
 
+import net.mcreator.foodstuff.creativetab.TabFoodstuffFromMod;
 import net.mcreator.foodstuff.ElementsFoodstuff;
 
 import java.util.Random;
@@ -86,7 +86,7 @@ public class BlockBamboo extends ElementsFoodstuff.ModElement {
 	public static class BlockCustomFlower extends BlockReed {
 		public BlockCustomFlower() {
 			setSoundType(SoundType.PLANT);
-			setCreativeTab(CreativeTabs.MISC);
+			setCreativeTab(TabFoodstuffFromMod.tab);
 			setHardness(0.1F);
 			setResistance(0.5F);
 			setLightLevel(0.01F);

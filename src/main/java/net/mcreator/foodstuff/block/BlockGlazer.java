@@ -17,7 +17,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSlab;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.Variant;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
@@ -29,6 +28,7 @@ import net.minecraft.block.BlockSlab;
 import net.minecraft.block.Block;
 
 import net.mcreator.foodstuff.gui.GuiGlazerMenu;
+import net.mcreator.foodstuff.creativetab.TabFoodstuffFromMod;
 import net.mcreator.foodstuff.Foodstuff;
 import net.mcreator.foodstuff.ElementsFoodstuff;
 
@@ -65,7 +65,7 @@ public class BlockGlazer extends ElementsFoodstuff.ModElement {
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(0);
-			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+			setCreativeTab(TabFoodstuffFromMod.tab);
 			IBlockState state = this.blockState.getBaseState().withProperty(VARIANT, BlockCustom.Variant.DEFAULT);
 			if (!this.isDouble())
 				state = state.withProperty(BlockSlab.HALF, EnumBlockHalf.BOTTOM);

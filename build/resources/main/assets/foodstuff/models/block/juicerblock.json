@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foodstuff:blocks/peppery_texture",
+    "up": "foodstuff:blocks/peppery_texture",
+    "north": "foodstuff:blocks/peppery_texture",
+    "east": "foodstuff:blocks/peppery_texture",
+    "south": "foodstuff:blocks/peppery_texture",
+    "west": "foodstuff:blocks/peppery_texture",
+    "particle": "foodstuff:blocks/peppery_texture"
+  }
+}

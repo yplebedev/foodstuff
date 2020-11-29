@@ -9,12 +9,12 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
+import net.mcreator.foodstuff.creativetab.TabFoodstuffFromMod;
 import net.mcreator.foodstuff.ElementsFoodstuff;
 
 import java.util.Random;
@@ -48,7 +48,7 @@ public class BlockSalt extends ElementsFoodstuff.ModElement {
 			setResistance(10F);
 			setLightLevel(0.01F);
 			setLightOpacity(255);
-			setCreativeTab(CreativeTabs.FOOD);
+			setCreativeTab(TabFoodstuffFromMod.tab);
 		}
 
 		@Override

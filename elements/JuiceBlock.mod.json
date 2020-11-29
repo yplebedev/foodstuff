@@ -1,0 +1,60 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 299,
+          "y": 125
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "name": "Slot #1",
+          "x": 517,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Juicer",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Juicer",
+          "x": 406,
+          "y": 81
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Make juice",
+          "onClick": {
+            "name": "GivenItemInJuicer"
+          },
+          "width": 200,
+          "height": 40,
+          "name": "Make juice",
+          "x": 327,
+          "y": 180
+        }
+      }
+    ]
+  }
+}

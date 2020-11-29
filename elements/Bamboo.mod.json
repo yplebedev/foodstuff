@@ -10,7 +10,7 @@
     "growapableMaxHeight": 14,
     "name": "Bamboo",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:FoodstuffFromMod"
     },
     "hardness": 0.1,
     "resistance": 0.5,

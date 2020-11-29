@@ -26,7 +26,7 @@
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:FoodstuffFromMod"
     },
     "destroyTool": "shovel",
     "affectedBySilkTouch": true,

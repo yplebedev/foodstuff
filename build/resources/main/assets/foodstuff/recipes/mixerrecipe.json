@@ -1,0 +1,26 @@
+{
+  "group": "foodstuff",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "foodstuff:foodstuffgem"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "foodstuff:foodstuffgem"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "foodstuff:mixer",
+    "count": 1
+  }
+}

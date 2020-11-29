@@ -1,11 +1,11 @@
 Unsupposrted library path: /Users/home/MCreatorWorkspaces/foodstuff/build/classes/java/api
 Unsupposrted library path: /Users/home/MCreatorWorkspaces/foodstuff/build/resources/api
 Symbol range map extraction starting
-Processing 39 files
+Processing 50 files
 startProcessing "net/mcreator/foodstuff/ClientProxyFoodstuff.java" md5: 8996f81acce5914817eaf42017d521da
 endProcessing "net/mcreator/foodstuff/ClientProxyFoodstuff.java"
 
-startProcessing "net/mcreator/foodstuff/ElementsFoodstuff.java" md5: be6538990b53239e08160e7cbfd1f4d8
+startProcessing "net/mcreator/foodstuff/ElementsFoodstuff.java" md5: 6b8c933a1aaeea356310faf5ee844cd4
 endProcessing "net/mcreator/foodstuff/ElementsFoodstuff.java"
 
 startProcessing "net/mcreator/foodstuff/Foodstuff.java" md5: fcac5646238ad32925f00488499f6c8a
@@ -20,83 +20,119 @@ endProcessing "net/mcreator/foodstuff/IProxyFoodstuff.java"
 startProcessing "net/mcreator/foodstuff/ServerProxyFoodstuff.java" md5: fab1ba137ed2912c9f189384e18cef65
 endProcessing "net/mcreator/foodstuff/ServerProxyFoodstuff.java"
 
-startProcessing "net/mcreator/foodstuff/block/BlockBamboo.java" md5: 88e296f9750c8ca91b4684929f57b329
+startProcessing "net/mcreator/foodstuff/block/BlockBamboo.java" md5: 71c84cf84df6852ff5fdd11b6579a261
 endProcessing "net/mcreator/foodstuff/block/BlockBamboo.java"
 
-startProcessing "net/mcreator/foodstuff/block/BlockGlazer.java" md5: 9bf56e300bd4882e4ff18ea6ac1f30ce
+startProcessing "net/mcreator/foodstuff/block/BlockFoodstuffOre.java" md5: 12d8004681dd983956243d83d312290d
+endProcessing "net/mcreator/foodstuff/block/BlockFoodstuffOre.java"
+
+startProcessing "net/mcreator/foodstuff/block/BlockGlazer.java" md5: c85eb6b1d37f4931dfae42200a3bdcd3
 endProcessing "net/mcreator/foodstuff/block/BlockGlazer.java"
 
-startProcessing "net/mcreator/foodstuff/block/BlockLeavesforbanana.java" md5: d293d52665b4c977507af1ad4608972b
+startProcessing "net/mcreator/foodstuff/block/BlockJuicerBlock.java" md5: 93fd89e94e30bb5c026e5912302de92e
+endProcessing "net/mcreator/foodstuff/block/BlockJuicerBlock.java"
+
+startProcessing "net/mcreator/foodstuff/block/BlockLeavesforbanana.java" md5: 0bab79d328ef4531e79cdfcc8e3fdb08
 endProcessing "net/mcreator/foodstuff/block/BlockLeavesforbanana.java"
 
-startProcessing "net/mcreator/foodstuff/block/BlockPepper.java" md5: ff982e7ed5760046871b2ce68e885da6
+startProcessing "net/mcreator/foodstuff/block/BlockPepper.java" md5: 4514d6a257a6912d3ba397207c1a8f3d
 endProcessing "net/mcreator/foodstuff/block/BlockPepper.java"
 
-startProcessing "net/mcreator/foodstuff/block/BlockRice.java" md5: 28d380bf5c1b26b858ca0837ba56e630
+startProcessing "net/mcreator/foodstuff/block/BlockRice.java" md5: c9a1e18832c0e97ee17cd76f8c6c9ef5
 endProcessing "net/mcreator/foodstuff/block/BlockRice.java"
 
-startProcessing "net/mcreator/foodstuff/block/BlockSalt.java" md5: 5ecf769eb79094d06ed3ede7062a24c3
+startProcessing "net/mcreator/foodstuff/block/BlockSalt.java" md5: 97cf3c29b17b7ed155a4b00eabdf4054
 endProcessing "net/mcreator/foodstuff/block/BlockSalt.java"
+
+startProcessing "net/mcreator/foodstuff/block/BlockStrawberry.java" md5: 419f84adc173ecdf97f0a8dda5ae02ff
+endProcessing "net/mcreator/foodstuff/block/BlockStrawberry.java"
 
 startProcessing "net/mcreator/foodstuff/command/CommandWhat.java" md5: 1a497647e0b405042e65b285c5c4c343
 endProcessing "net/mcreator/foodstuff/command/CommandWhat.java"
 
+startProcessing "net/mcreator/foodstuff/creativetab/TabFoodstuffFromMod.java" md5: eebadcca9a87211cb44cb90b43838f2a
+endProcessing "net/mcreator/foodstuff/creativetab/TabFoodstuffFromMod.java"
+
 startProcessing "net/mcreator/foodstuff/gui/GuiGlazerMenu.java" md5: 81df190b7722c0176ab7c549064d6725
 endProcessing "net/mcreator/foodstuff/gui/GuiGlazerMenu.java"
+
+startProcessing "net/mcreator/foodstuff/gui/GuiJuiceBlock.java" md5: 2023dd6df79fe27620720e9dfa480ab2
+endProcessing "net/mcreator/foodstuff/gui/GuiJuiceBlock.java"
 
 startProcessing "net/mcreator/foodstuff/item/ItemBamboorolls.java" md5: 28c4b630b412df2fd5802b22be6e360e
 endProcessing "net/mcreator/foodstuff/item/ItemBamboorolls.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemBanana.java" md5: 49d1a4468c22505e9672e58aecbe8551
+startProcessing "net/mcreator/foodstuff/item/ItemBanana.java" md5: 88f2d5b6c516d8937cd63498ae721219
 endProcessing "net/mcreator/foodstuff/item/ItemBanana.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemBoiledrice.java" md5: ce5be8b8946bda6f838ad1755c01f49c
+startProcessing "net/mcreator/foodstuff/item/ItemBerry.java" md5: 1f4a74ce21d2609823a2aa037697b7eb
+endProcessing "net/mcreator/foodstuff/item/ItemBerry.java"
+
+startProcessing "net/mcreator/foodstuff/item/ItemBladeGrinder.java" md5: 2767de23d8b41a182af8a3fb837a6eb6
+endProcessing "net/mcreator/foodstuff/item/ItemBladeGrinder.java"
+
+startProcessing "net/mcreator/foodstuff/item/ItemBoiledrice.java" md5: beee52d1717af2af7fcad80d59c1ac7c
 endProcessing "net/mcreator/foodstuff/item/ItemBoiledrice.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemChocolate.java" md5: aa9bca930e6693e7aab91d6dbbcba2e2
+startProcessing "net/mcreator/foodstuff/item/ItemChocolate.java" md5: f06910e72e98dffd8e57bf76798c9e4f
 endProcessing "net/mcreator/foodstuff/item/ItemChocolate.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemChocolateglazedbanana.java" md5: 7c2a24b2149e5f6bfd16a884898cde89
+startProcessing "net/mcreator/foodstuff/item/ItemChocolateglazedbanana.java" md5: 06a09bb419161a2554b0ab38134d45f3
 endProcessing "net/mcreator/foodstuff/item/ItemChocolateglazedbanana.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemDough.java" md5: f0bf7b9a21a6db4bc6882f817d44e873
+startProcessing "net/mcreator/foodstuff/item/ItemDough.java" md5: 405be60272e20fb52799f910923d0a55
 endProcessing "net/mcreator/foodstuff/item/ItemDough.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemDoughnut.java" md5: 5b809de31f6ab575f733ebc4bc65a209
+startProcessing "net/mcreator/foodstuff/item/ItemDoughnut.java" md5: 0fe7ca54735a539c74a1fa0c870bc3d1
 endProcessing "net/mcreator/foodstuff/item/ItemDoughnut.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemFlower.java" md5: 3e5adf6716424f63e209cdbc8c7f6a01
+startProcessing "net/mcreator/foodstuff/item/ItemFlower.java" md5: 9095be5dc12d4ab287b92d5633e1142c
 endProcessing "net/mcreator/foodstuff/item/ItemFlower.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemGrinder.java" md5: 54ceb2a2ea8b0982cc51384d3d1e90ea
+startProcessing "net/mcreator/foodstuff/item/ItemFoodstuffGem.java" md5: 3fa7c1d1faf394d2b0662904fb57d209
+endProcessing "net/mcreator/foodstuff/item/ItemFoodstuffGem.java"
+
+startProcessing "net/mcreator/foodstuff/item/ItemGrinder.java" md5: 8df946c1ce571ab1960898e5a99117ee
 endProcessing "net/mcreator/foodstuff/item/ItemGrinder.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemGrindingstones.java" md5: 27d22ede4368de8b4c08559859c8c7f4
+startProcessing "net/mcreator/foodstuff/item/ItemGrindingstones.java" md5: 06539b662893bd9008bf4dfbc245fe5e
 endProcessing "net/mcreator/foodstuff/item/ItemGrindingstones.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemPepperfood.java" md5: f65aed93ae3eff0fed8af3100e9eae95
+startProcessing "net/mcreator/foodstuff/item/ItemJuice.java" md5: 7d6bf07cf6a7342bd27f47ccdce0297d
+endProcessing "net/mcreator/foodstuff/item/ItemJuice.java"
+
+startProcessing "net/mcreator/foodstuff/item/ItemMixer.java" md5: f7c0ad3134d5f8e5edfcafe4e26411e0
+endProcessing "net/mcreator/foodstuff/item/ItemMixer.java"
+
+startProcessing "net/mcreator/foodstuff/item/ItemPepperfood.java" md5: 9f8af8f8f855bda302dd08e7e5b1ddc8
 endProcessing "net/mcreator/foodstuff/item/ItemPepperfood.java"
 
 startProcessing "net/mcreator/foodstuff/item/ItemPeppersand.java" md5: c3c6b4fe8ebdb9aed429cdc64bc51e6a
 endProcessing "net/mcreator/foodstuff/item/ItemPeppersand.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemPizza.java" md5: 8a59a6dd37a2dc2fe04b76611907e5e2
+startProcessing "net/mcreator/foodstuff/item/ItemPizza.java" md5: 821b83ca2dc08c969e7d50def49f774f
 endProcessing "net/mcreator/foodstuff/item/ItemPizza.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemRiceItem.java" md5: 10b7c10f39154ce6891d84fb6e118775
+startProcessing "net/mcreator/foodstuff/item/ItemRiceItem.java" md5: 8db8e5640825d603da31bd3406ee0a71
 endProcessing "net/mcreator/foodstuff/item/ItemRiceItem.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemSaltpowder.java" md5: 2d47ade35d72c241f33584ebd3bd9ffe
+startProcessing "net/mcreator/foodstuff/item/ItemSaltpowder.java" md5: db6994e06a7238cca3c94cd67e679761
 endProcessing "net/mcreator/foodstuff/item/ItemSaltpowder.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemSausage.java" md5: 8f4bdd2fe6fd2d7fc6934c82baa1535f
+startProcessing "net/mcreator/foodstuff/item/ItemSausage.java" md5: 3a87fc87df564fbe0944a0874b70f60d
 endProcessing "net/mcreator/foodstuff/item/ItemSausage.java"
 
-startProcessing "net/mcreator/foodstuff/item/ItemSushi.java" md5: 87ad1ff3dcd316646bf9df18a00df827
+startProcessing "net/mcreator/foodstuff/item/ItemShit.java" md5: ff0237688d3b2bf4771702abf17ac27e
+endProcessing "net/mcreator/foodstuff/item/ItemShit.java"
+
+startProcessing "net/mcreator/foodstuff/item/ItemSushi.java" md5: 99c6ce49048382a4cf20b15ebe71fd10
 endProcessing "net/mcreator/foodstuff/item/ItemSushi.java"
 
 startProcessing "net/mcreator/foodstuff/potion/PotionFoodpoisoning.java" md5: 2a12cb237f4930b68bf59bf827b18304
 endProcessing "net/mcreator/foodstuff/potion/PotionFoodpoisoning.java"
+
+startProcessing "net/mcreator/foodstuff/procedure/ProcedureGivenItemInJuicer.java" md5: 3c3e653c0c9c86c3cc1eb7594e3614ae
+endProcessing "net/mcreator/foodstuff/procedure/ProcedureGivenItemInJuicer.java"
 
 startProcessing "net/mcreator/foodstuff/procedure/ProcedureHot.java" md5: a5e74dfd4bf35db644edbc0e1790d086
 endProcessing "net/mcreator/foodstuff/procedure/ProcedureHot.java"
@@ -115,7 +151,4 @@ endProcessing "net/mcreator/foodstuff/procedure/ProcedureWhattriggered.java"
 
 startProcessing "net/mcreator/foodstuff/world/structure/StructureBananatree.java" md5: a0f6e640db89329e865632ce578cbd31
 endProcessing "net/mcreator/foodstuff/world/structure/StructureBananatree.java"
-
-startProcessing "net/mcreator/foodstuff/world/structure/StructureBanannatree.java" md5: 5b5e5500669c5e918b3f75310406ca67
-endProcessing "net/mcreator/foodstuff/world/structure/StructureBanannatree.java"
 

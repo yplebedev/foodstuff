@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "foodstuff:items/stones"
+    "layer0": "foodstuff:items/salt_powder_texture"
   }
 }

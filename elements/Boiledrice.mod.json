@@ -3,11 +3,11 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "stones",
+    "texture": "salt_powder_texture",
     "customModelName": "Normal",
     "name": "Boiled rice",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:FoodstuffFromMod"
     },
     "stackSize": 64,
     "nutritionalValue": 2,

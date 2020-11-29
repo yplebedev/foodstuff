@@ -30,6 +30,7 @@ import net.minecraft.block.BlockFlower;
 import net.minecraft.block.Block;
 
 import net.mcreator.foodstuff.item.ItemRiceItem;
+import net.mcreator.foodstuff.creativetab.TabFoodstuffFromMod;
 import net.mcreator.foodstuff.ElementsFoodstuff;
 
 import java.util.Random;
@@ -79,7 +80,7 @@ public class BlockRice extends ElementsFoodstuff.ModElement {
 	public static class BlockCustomFlower extends BlockFlower {
 		public BlockCustomFlower() {
 			setSoundType(SoundType.PLANT);
-			setCreativeTab(CreativeTabs.DECORATIONS);
+			setCreativeTab(TabFoodstuffFromMod.tab);
 			setHardness(0F);
 			setResistance(0F);
 			setLightLevel(0F);

@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Chocolate"
+      },
+      {
+        "value": "CUSTOM:JuicerBlock"
+      },
+      {
+        "value": "CUSTOM:Chocolate"
+      },
+      {
+        "value": "CUSTOM:FoodstuffGem"
+      },
+      {
+        "value": "CUSTOM:Mixer"
+      },
+      {
+        "value": "CUSTOM:FoodstuffGem"
+      },
+      {
+        "value": "CUSTOM:FoodstuffGem"
+      },
+      {
+        "value": "CUSTOM:FoodstuffGem"
+      },
+      {
+        "value": "CUSTOM:FoodstuffGem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Glazer"
+    },
+    "name": "glazerrecipe",
+    "namespace": "mod"
+  }
+}

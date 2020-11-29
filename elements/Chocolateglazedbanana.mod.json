@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Chocolate glazed banana",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:FoodstuffFromMod"
     },
     "stackSize": 64,
     "nutritionalValue": 8,

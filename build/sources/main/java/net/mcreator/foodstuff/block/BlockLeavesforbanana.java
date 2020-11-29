@@ -13,7 +13,6 @@ import net.minecraft.util.NonNullList;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
@@ -21,6 +20,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
 import net.mcreator.foodstuff.item.ItemBanana;
+import net.mcreator.foodstuff.creativetab.TabFoodstuffFromMod;
 import net.mcreator.foodstuff.ElementsFoodstuff;
 
 @ElementsFoodstuff.ModElement.Tag
@@ -52,7 +52,7 @@ public class BlockLeavesforbanana extends ElementsFoodstuff.ModElement {
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(153);
-			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+			setCreativeTab(TabFoodstuffFromMod.tab);
 			setDefaultSlipperiness(0.7999999999999999f);
 		}
 

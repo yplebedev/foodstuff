@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Grinding stones",
     "creativeTab": {
-      "value": "BREWING"
+      "value": "CUSTOM:FoodstuffFromMod"
     },
     "stackSize": 64,
     "nutritionalValue": -2,
